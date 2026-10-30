@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="650" viewBox="0 0 1280 650" role="img" aria-labelledby="title desc">
+<title id="title">展览发布与下架规则</title><desc id="desc">示例由私有草稿改为公开的展出中展览，再关闭公开开关完成下架。公开状态与业务阶段分别控制，只有允许公开的业务阶段并开启公开开关时，观众端才能读取。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#71877e" stroke-width="1.4"/></marker></defs>
+<rect width="1280" height="650" rx="20" fill="#f5f2eb"/>
+<g font-family="PingFang SC, Microsoft YaHei, sans-serif" fill="#203f49">
+<text x="48" y="52" font-size="13" letter-spacing="3" fill="#ae5541">ZHANXU · PUBLICATION RULES</text><text x="48" y="102" font-size="32" font-weight="600">保存、公开、下架：一条可演示的操作路径</text>
+<text x="48" y="136" font-size="16" fill="#657c73">业务阶段与公开开关独立管理。下面是演示路径，不是必须依次执行的状态机。</text>
+<g fill="#fff" stroke="#dce2d9"><rect x="48" y="186" width="332" height="238" rx="12"/><rect x="474" y="186" width="332" height="238" rx="12"/><rect x="900" y="186" width="332" height="238" rx="12"/></g>
+<g font-size="13" fill="#ae5541"><text x="72" y="219">STEP 01 / 准备内容</text><text x="498" y="219">STEP 02 / 向观众公开</text><text x="924" y="219">STEP 03 / 保留记录并下架</text></g>
+<g font-size="24" font-weight="600"><text x="72" y="261">保存未公开草稿</text><text x="498" y="261">展出中 + 开启公开</text><text x="924" y="261">关闭公开开关</text></g>
+<g font-size="16" fill="#657c73"><text x="72" y="302">status = draft</text><text x="72" y="333">visible = false</text><text x="498" y="302">status = on_view</text><text x="498" y="333">visible = true</text><text x="924" y="302">status = on_view（保留）</text><text x="924" y="333">visible = false</text></g>
+<rect x="72" y="359" width="284" height="42" rx="6" fill="#f2eee5"/><rect x="498" y="359" width="284" height="42" rx="6" fill="#e4eee7"/><rect x="924" y="359" width="284" height="42" rx="6" fill="#f2eee5"/>
+<g font-size="15"><text x="88" y="386">后台可见；公开详情返回 404</text><text x="514" y="386">刷新 Web / H5 后可查看</text><text x="940" y="386">后台保留；公开详情返回 404</text></g>
+<g fill="none" stroke="#71877e" stroke-width="2" marker-end="url(#arrow)"><path d="M380 304 H461"/><path d="M806 304 H887"/></g>
+<g font-size="12" text-anchor="middle" fill="#657c73"><text x="427" y="283">编辑并保存</text><text x="853" y="283">确认下架</text></g>
+<rect x="48" y="465" width="1184" height="117" rx="12" fill="#203f49"/>
+<text x="74" y="501" font-size="18" font-weight="600" fill="#fff">公开判定 = 允许公开的业务阶段 ∩ 公开开关已开启</text>
+<text x="74" y="537" font-size="16" fill="#d5e1da">允许公开：征集中 collecting / 展出中 on_view / 已归档 archived；同时必须满足 public_visible = TRUE。</text>
+<text x="74" y="564" font-size="14" fill="#d5e1da">公开列表与公开详情执行同一规则。草稿、筹备中和已取消阶段不允许开启公开。</text>
+<text x="48" y="621" font-size="14" fill="#657c73">删除：仅限未公开且无关联记录的草稿；其他记录使用下架保留。业务阶段由管理员选择，不随日期自动变化。</text>
+</g></svg>

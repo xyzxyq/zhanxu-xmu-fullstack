@@ -1,0 +1,15 @@
+# Local dependencies and build output
+node_modules/
+dist/
+target/
+.vercel/
+# Local credentials; keep the safe configuration template
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# macOS metadata and temporary browser evidence
+.DS_Store
+._*
+tests/prototype-evidence/

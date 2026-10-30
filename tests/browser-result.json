@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "viewports": [
+    "1440x1024",
+    "390x844"
+  ],
+  "screenshots": 7,
+  "checks": [
+    "admin login/logout",
+    "CRUD through browser UI",
+    "date validation",
+    "database persistence after reload",
+    "Web/mobile publication and hiding",
+    "search empty state",
+    "mobile status filter",
+    "detail deep-link reload",
+    "simulated 503 and retry",
+    "images and horizontal overflow",
+    "no pageerror"
+  ],
+  "browser": "155.0.8059.85"
+}

@@ -1,0 +1,38 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const base=process.env.DEMO_URL||'http://127.0.0.1:4187';
+const output=process.env.DEMO_EVIDENCE||require('node:path').join(__dirname,'prototype-evidence');
+fs.mkdirSync(output,{recursive:true});
+(async()=>{
+ const browser=await chromium.launch({headless:true,...(process.env.CHROME_BIN ? {executablePath:process.env.CHROME_BIN} : {})});
+ const context=await browser.newContext({viewport:{width:1440,height:1024}});
+ const page=await context.newPage(), errors=[],apiRequests=[],failed=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ page.on('request',req=>{if(new URL(req.url()).pathname.startsWith('/api'))apiRequests.push(req.url())});
+ page.on('response',r=>{if(r.status()>=400)failed.push(`${r.status()} ${r.url()}`)});
+ page.on('dialog',d=>d.accept());
+ async function images(){await page.evaluate(async()=>Promise.all([...document.images].map(i=>i.decode())))}
+ await page.goto(base+'/');await page.locator('.exhibition-card').nth(2).waitFor();assert.equal(await page.locator('.exhibition-card').count(),3);await images();
+ await page.screenshot({path:output+'/prototype-web.png'});
+ await page.locator('.exhibition-card').first().click();await page.getByRole('heading',{name:'策展序言',exact:true}).waitFor();
+ await page.goto(base+'/admin/');await page.getByRole('button',{name:'进入演示工作台 →',exact:true}).click();
+ await page.locator('tbody tr').nth(4).waitFor();assert.equal(await page.locator('input[type=password]').count(),0);
+ await images();await page.screenshot({path:output+'/prototype-admin.png'});
+ await page.getByRole('button',{name:'＋ 创建展览',exact:true}).click();
+ await page.getByLabel('展览标题 *').fill('公网演示验收');await page.getByLabel('展览简介 *').fill('验证同一浏览器的三端数据联动。');
+ await page.getByLabel('业务状态',{exact:true}).selectOption('on_view');await page.getByLabel('向观众公开').check();
+ await page.getByRole('button',{name:'保存展览',exact:true}).click();await page.getByRole('status').waitFor();
+ await page.goto(base+'/');await page.getByRole('heading',{name:'公网演示验收',exact:true}).waitFor();
+ await page.setViewportSize({width:390,height:844});await page.goto(base+'/mobile/');await page.locator('.card').nth(3).waitFor();assert.equal(await page.locator('.card').count(),4);
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ await page.getByRole('link').filter({has:page.getByRole('heading',{name:'公网演示验收'})}).click();await page.getByRole('heading',{name:'策展序言',exact:true}).waitFor();
+ await page.setViewportSize({width:1440,height:1024});await page.goto(base+'/admin/');const row=page.locator('tbody tr').filter({hasText:'公网演示验收'});await row.getByRole('button',{name:'下架',exact:true}).click();await page.getByRole('status').waitFor();
+ await page.goto(base+'/mobile/');await page.locator('.card').nth(2).waitFor();assert.equal(await page.locator('.card').count(),3);
+ await page.getByRole('button',{name:'重置演示',exact:true}).click();await page.locator('.card').nth(2).waitFor();
+ await page.setViewportSize({width:390,height:844});await images();await page.screenshot({path:output+'/prototype-mobile.png'});
+ await page.goto(base+'/#exhibition/4');await page.getByRole('alert').waitFor();assert.match(await page.getByRole('alert').innerText(),/尚未公开/);
+ assert.deepEqual(apiRequests,[]);assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
+ const result={url:base,checkedAt:new Date().toISOString(),checks:['公开列表与详情','无需账号进入演示管理端','创建并公开展览','Web 与移动端同浏览器同步','下架隐藏','重置初始数据','私有展览详情不可见','390px 无横向溢出','无后端 API 请求','无脚本错误或 HTTP 失败'],apiRequests,errors,failed};
+ fs.writeFileSync(output+'/prototype-browser-result.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

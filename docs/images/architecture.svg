@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620" role="img" aria-labelledby="title desc">
+<title id="title">展序·厦大三端全栈架构</title><desc id="desc">三个独立 Vue 前端通过各自 Vite 代理访问 Spring Boot，后端校验管理会话与业务参数，再读取或写入 MySQL。图片由各前端的本地静态目录提供。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#71877e" stroke-width="1.4"/></marker></defs>
+<rect width="1280" height="620" rx="20" fill="#f5f2eb"/>
+<g font-family="PingFang SC, Microsoft YaHei, sans-serif" fill="#203f49">
+<text x="48" y="52" font-size="13" letter-spacing="3" fill="#ae5541">ZHANXU · SYSTEM ARCHITECTURE</text>
+<text x="48" y="102" font-size="32" font-weight="600">三端独立呈现，同一份展览数据</text>
+<text x="48" y="136" font-size="16" fill="#657c73">后台负责管理，观众端负责浏览；数据库是共同的数据来源。</text>
+<g fill="#fff" stroke="#dce2d9"><rect x="48" y="181" width="300" height="100" rx="12"/><rect x="48" y="310" width="300" height="100" rx="12"/><rect x="48" y="439" width="300" height="100" rx="12"/></g>
+<rect x="48" y="181" width="6" height="100" rx="3" fill="#ae5541"/><rect x="48" y="310" width="6" height="100" rx="3" fill="#668c80"/><rect x="48" y="439" width="6" height="100" rx="3" fill="#ceb485"/>
+<text x="72" y="217" font-size="21" font-weight="600">管理后台 · Vue</text><text x="72" y="251" font-size="15" fill="#657c73">:5174　登录 / 编辑 / 公开 / 下架</text>
+<text x="72" y="346" font-size="21" font-weight="600">Web · Vue</text><text x="72" y="380" font-size="15" fill="#657c73">:5173　列表 / 搜索 / 展览详情</text>
+<text x="72" y="475" font-size="21" font-weight="600">移动 H5 · Vue</text><text x="72" y="509" font-size="15" fill="#657c73">:5175　发现 / 筛选 / 展览详情</text>
+<g fill="none" stroke="#71877e" stroke-width="2" marker-end="url(#arrow)"><path d="M348 231 H507"/><path d="M348 360 H507"/><path d="M348 489 H507"/><path d="M833 360 H953"/></g>
+<g font-size="13" fill="#657c73" text-anchor="middle"><text x="428" y="215">管理接口 + Cookie</text><text x="428" y="344">公开查询</text><text x="428" y="473">公开查询</text><text x="894" y="341">参数化 SQL</text></g>
+<rect x="519" y="181" width="314" height="358" rx="12" fill="#203f49"/>
+<g fill="#fff"><text x="545" y="218" font-size="23" font-weight="600">Spring Boot :8081</text><text x="545" y="253" font-size="14" fill="#c1d3cb">同源 /api → Vite 代理 → 后端</text><path d="M545 277 H807" stroke="#6a898c"/>
+<text x="545" y="316" font-size="17">01　会话与请求权限校验</text><text x="545" y="362" font-size="17">02　接口路由与参数校验</text><text x="545" y="408" font-size="17">03　参数化查询与写入事务</text><text x="545" y="454" font-size="17">04　统一业务错误响应</text><text x="545" y="507" font-size="13" fill="#c1d3cb">公开接口仅返回满足可见条件的记录</text></g>
+<rect x="965" y="250" width="267" height="220" rx="12" fill="#fff" stroke="#dce2d9"/>
+<text x="989" y="290" font-size="24" font-weight="600">MySQL</text><text x="989" y="325" font-size="15" fill="#657c73">zhanxu_fullstack</text><path d="M989 345 H1208" stroke="#dce2d9"/>
+<text x="989" y="376" font-size="16">exhibitions　核心读写</text><text x="989" y="408" font-size="16">users　创建人外键</text><text x="989" y="440" font-size="14" fill="#657c73">其余表支撑原设计与作品展示</text>
+<text x="48" y="586" font-size="14" fill="#657c73">图片：各前端 public/assets/ 本地提供　｜　更新：保存后重新查询或刷新可见，不使用实时推送</text>
+</g></svg>
