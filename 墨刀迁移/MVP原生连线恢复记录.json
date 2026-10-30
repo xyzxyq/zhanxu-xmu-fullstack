@@ -1,0 +1,1412 @@
+[
+  {
+    "page": "M03 / 厦园有光",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiOyCxVXYkQQVuLptLKy",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M03 / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "主要操作",
+      "↗ M04 / Button"
+    ],
+    "key": "wbVXZUw9yxKiEVqL",
+    "target": "M04 / 预约参观"
+  },
+  {
+    "page": "M03 / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "主要操作",
+      "↗ M06 / Button"
+    ],
+    "key": "wbVXZVJnUGMY8jTK",
+    "target": "M06 / 展区导览"
+  },
+  {
+    "page": "M03 / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "展区目录",
+      "↗ M06 / 01   瓦影与窗     →"
+    ],
+    "key": "VXYiOyFlVXYkQQU8UdCWBR",
+    "target": "M06 / 展区导览"
+  },
+  {
+    "page": "M03 / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "展区目录",
+      "↗ M06 / 02   湖畔日常     →"
+    ],
+    "key": "VXYiOyFYVXYkQQU9UYJnl0",
+    "target": "M06 / 展区导览"
+  },
+  {
+    "page": "M03 / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "展区目录",
+      "↗ M06 / 03   向海而生     →"
+    ],
+    "key": "VXYiOyGYVXYkQQUNpsHGoQ",
+    "target": "M06 / 展区导览"
+  },
+  {
+    "page": "M03 / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "展区目录",
+      "↗ M06 / 04   凤凰花季     →"
+    ],
+    "key": "VXYiOyG2VXYkQQUfzV8gS1",
+    "target": "M06 / 展区导览"
+  },
+  {
+    "page": "M01 / 展序·厦大",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M02 / Button"
+    ],
+    "key": "wbVXZLWeNalcTovU",
+    "target": "M02 / 发现展览"
+  },
+  {
+    "page": "M01 / 展序·厦大",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M03 / ExhibitionCard"
+    ],
+    "key": "wbVXZVXLnz95GmNJ",
+    "target": "M03 / 厦园有光"
+  },
+  {
+    "page": "M01 / 展序·厦大",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ W06 / Button"
+    ],
+    "key": "wbVXZVYBQNYB2pCV",
+    "target": "W06 / 把你的厦园，带进一场展览。"
+  },
+  {
+    "page": "M02 / 发现展览",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiOyMWVXYkQQVtwyvSsf",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M02 / 发现展览",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "展览筛选",
+      "↗ S01-mobile / Button"
+    ],
+    "key": "wbVXZW6NSu6cCyhV",
+    "target": "S01-mobile / 没有找到相关展览"
+  },
+  {
+    "page": "M02 / 发现展览",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M03 / ExhibitionCard"
+    ],
+    "key": "wbVXZW7HlJMGheRL",
+    "target": "M03 / 厦园有光"
+  },
+  {
+    "page": "M02 / 发现展览",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M03-archive / ExhibitionCard"
+    ],
+    "key": "wbVXZW88TLGevbrc",
+    "target": "M03-archive / 厦园有光"
+  },
+  {
+    "page": "M04 / 预约参观",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiOySrVXYkQQVhEPCJxr",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M04 / 预约参观",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ S05-mobile / 场次 10:00 — 12:00"
+    ],
+    "key": "wbVXZWA7aH7NpHZI",
+    "target": "S05-mobile / 这个时段已满额"
+  },
+  {
+    "page": "M04 / 预约参观",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M10-book / Button"
+    ],
+    "key": "wbVXZWB2qwWG5Nnn",
+    "target": "M10-book / 校园身份登录"
+  },
+  {
+    "page": "M05 / 入场凭证",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiOyXPVXYkQQVKgK9tRl",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M05 / 入场凭证",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ S06-mobile / Button"
+    ],
+    "key": "wbVXZWmCdo5OS8ha",
+    "target": "S06-mobile / 取消这次预约？"
+  },
+  {
+    "page": "M05 / 入场凭证",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M06 / Button"
+    ],
+    "key": "wbVXZWnPsNxXzniC",
+    "target": "M06 / 展区导览"
+  },
+  {
+    "page": "M06 / 展区导览",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiOybWVXYkQQVIhzEklQ",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M06 / 展区导览",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M06-scan / Button"
+    ],
+    "key": "wbVXZWpODi4sYeD3",
+    "target": "M06-scan / 扫描作品展签"
+  },
+  {
+    "page": "M09 / 我的展序",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiOzXQVXYkQQV9AMvrEi",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M09 / 我的展序",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M09-messages / Button"
+    ],
+    "key": "wbVXZWxeraxxIdA1",
+    "target": "M09-messages / 与你有关的新消息"
+  },
+  {
+    "page": "M09 / 我的展序",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M08 / Button"
+    ],
+    "key": "wbVXZWyXjHEIdqXS",
+    "target": "M08 / 我的收藏"
+  },
+  {
+    "page": "M09 / 我的展序",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M09-feedback / Button"
+    ],
+    "key": "wbVXZWzZfEVbwYy4",
+    "target": "M09-feedback / 观展反馈"
+  },
+  {
+    "page": "M09 / 我的展序",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ W08 / Button"
+    ],
+    "key": "wbVXZX0Ud4OEYvsq",
+    "target": "W08 / 我的投稿"
+  },
+  {
+    "page": "M09 / 我的展序",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M10 / Button"
+    ],
+    "key": "wbVXZX1V1HK6L5vF",
+    "target": "M10 / 校园身份登录"
+  },
+  {
+    "page": "M10 / 校园身份登录",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiOzcXVXYkQQV1ErOGCx",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M10 / 校园身份登录",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M09 / Button"
+    ],
+    "key": "wbVXZX3fPbU6dSI6",
+    "target": "M09 / 我的展序"
+  },
+  {
+    "page": "M10 / 校园身份登录",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M01 / Button"
+    ],
+    "key": "wbVXZX4Xi6F22N4h",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M10-book / 校园身份登录",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiP0QyVXYkQQWC1r9uSP",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M10-book / 校园身份登录",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M04 / Button"
+    ],
+    "key": "wbVXZX87IHX9VrEI",
+    "target": "M04 / 预约参观"
+  },
+  {
+    "page": "M10-book / 校园身份登录",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M01 / Button"
+    ],
+    "key": "wbVXZX8xOhUJVjBm",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "S01-mobile / 没有找到相关展览",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiP2BIVXYkQQW22yV1p5",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "S01-mobile / 没有找到相关展览",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M02 / Button"
+    ],
+    "key": "wbVXZXGaFsBAah9L",
+    "target": "M02 / 发现展览"
+  },
+  {
+    "page": "S05-mobile / 这个时段已满额",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiP2EwVXYkQQWw4kMkxS",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "S05-mobile / 这个时段已满额",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M04 / Button"
+    ],
+    "key": "wbVXZXIrAzUwnQm",
+    "target": "M04 / 预约参观"
+  },
+  {
+    "page": "M06-invalid / 没有识别到作品展签",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiP2WkVXYkQQW7Po2o48",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M06-invalid / 没有识别到作品展签",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M06 / Button"
+    ],
+    "key": "wbVXZXL0RhteY1hu",
+    "target": "M06 / 展区导览"
+  },
+  {
+    "page": "M09-feedback-sent / 感谢你的观展反馈",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiP2b5VXYkQQWOP6xWp6",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M09-feedback-sent / 感谢你的观展反馈",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M09 / Button"
+    ],
+    "key": "wbVXZXNJAWnkAofa",
+    "target": "M09 / 我的展序"
+  },
+  {
+    "page": "M06-scan / 扫描作品展签",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiP2ehVXYkQQWZgor59C",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M06-scan / 扫描作品展签",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M06-invalid / Button"
+    ],
+    "key": "wbVXZXTjIm9VmLyO",
+    "target": "M06-invalid / 没有识别到作品展签"
+  },
+  {
+    "page": "M06-scan / 扫描作品展签",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M07-removed / Button"
+    ],
+    "key": "wbVXZXUnASHdBCm9",
+    "target": "M07-removed / 这件作品暂不可查看"
+  },
+  {
+    "page": "M09-feedback / 观展反馈",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiP2loVXYkQQWEKfTZP4",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M09-feedback / 观展反馈",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M09-feedback-sent / Button"
+    ],
+    "key": "wbVXZXWreOdwWmj4",
+    "target": "M09-feedback-sent / 感谢你的观展反馈"
+  },
+  {
+    "page": "M04 / 预约参观",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M04-alt / 场次 16:00 — 18:00"
+    ],
+    "key": "wbVXZXkcszF5inrR",
+    "target": "M04-alt / 预约参观",
+    "variables": [
+      [
+        "booking_lateSession",
+        true
+      ]
+    ]
+  },
+  {
+    "page": "M04-alt / 预约参观",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M05-alt / Button"
+    ],
+    "key": "wbVXZXmWtp6M8APl",
+    "target": "M05-alt / 入场凭证",
+    "variables": [
+      [
+        "booking_reservationActive",
+        true
+      ],
+      [
+        "booking_reservationCancelled",
+        false
+      ],
+      [
+        "booking_lateSession",
+        true
+      ]
+    ]
+  },
+  {
+    "page": "S06-mobile / 取消这次预约？",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M05-cancelled / Button"
+    ],
+    "target": "M05-cancelled / 入场凭证",
+    "variables": [
+      [
+        "booking_reservationActive",
+        false
+      ],
+      [
+        "booking_reservationCancelled",
+        true
+      ],
+      [
+        "booking_reserveCount",
+        "21"
+      ],
+      [
+        "booking_remaining14",
+        "19"
+      ],
+      [
+        "booking_passStatus",
+        "◌ 预约已取消"
+      ]
+    ]
+  },
+  {
+    "page": "S06-mobile-alt / 取消这次预约？",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M05-cancelled / Button"
+    ],
+    "key": "wbVXZY6QVtTsxWap",
+    "target": "M05-cancelled / 入场凭证",
+    "variables": [
+      [
+        "booking_reservationActive",
+        false
+      ],
+      [
+        "booking_reservationCancelled",
+        true
+      ],
+      [
+        "booking_reserveCount",
+        "21"
+      ],
+      [
+        "booking_remaining16",
+        "26"
+      ]
+    ]
+  },
+  {
+    "page": "M03-archive / 厦园有光",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiOzfXVXYkQQV9gQB9WP",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M03-archive / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "主要操作",
+      "↗ M06-archive / Button"
+    ],
+    "key": "wbVXZYAxFVy4yd1l",
+    "target": "M06-archive / 展区导览"
+  },
+  {
+    "page": "M03-archive / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "展区目录",
+      "↗ M06-archive / 01   瓦影与窗     →"
+    ],
+    "key": "VXYiOzn4VXYkQQUDuBwPBC",
+    "target": "M06-archive / 展区导览"
+  },
+  {
+    "page": "M03-archive / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "展区目录",
+      "↗ M06-archive / 02   湖畔日常     →"
+    ],
+    "key": "VXYiOzn7VXYkQQURf0jB55",
+    "target": "M06-archive / 展区导览"
+  },
+  {
+    "page": "M03-archive / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "展区目录",
+      "↗ M06-archive / 03   向海而生     →"
+    ],
+    "key": "VXYiOzn3VXYkQQUvWaWPKK",
+    "target": "M06-archive / 展区导览"
+  },
+  {
+    "page": "M03-archive / 厦园有光",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "展区目录",
+      "↗ M06-archive / 04   凤凰花季     →"
+    ],
+    "key": "VXYiOzoXVXYkQQUOT42Ahl",
+    "target": "M06-archive / 展区导览"
+  },
+  {
+    "page": "M06-archive / 展区导览",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiOzpZVXYkQQVLTsz3HX",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M06-archive / 展区导览",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M07-archive-0 / Button"
+    ],
+    "key": "wbVXZYIHysdcWVGl",
+    "target": "M07-archive-0 / 瓦影与窗"
+  },
+  {
+    "page": "M06-archive / 展区导览",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M07-archive-3 / Button"
+    ],
+    "key": "wbVXZYJL1mGbsqDq",
+    "target": "M07-archive-3 / 湖畔晨雾"
+  },
+  {
+    "page": "M06-archive / 展区导览",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M07-archive-2 / Button"
+    ],
+    "key": "wbVXZYKBBwk8ijui",
+    "target": "M07-archive-2 / 向海，向远方"
+  },
+  {
+    "page": "M06-archive / 展区导览",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M07-archive-1 / Button"
+    ],
+    "key": "wbVXZYL14fBTsQB1",
+    "target": "M07-archive-1 / 凤凰花开的时候"
+  },
+  {
+    "page": "M06-archive / 展区导览",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M06-scan / Button"
+    ],
+    "key": "wbVXZYLrlTlt5HqE",
+    "target": "M06-scan / 扫描作品展签"
+  },
+  {
+    "page": "M04-alt / 预约参观",
+    "path": [
+      "页头",
+      "↗ M01 / ‹"
+    ],
+    "key": "VXYiOzvsVXYkQQVa9NoLpq",
+    "target": "M01 / 展序·厦大"
+  },
+  {
+    "page": "M04-alt / 预约参观",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ S05-mobile / 场次 10:00 — 12:00"
+    ],
+    "key": "wbVXZYO6liM6LXxY",
+    "target": "S05-mobile / 这个时段已满额"
+  },
+  {
+    "page": "M04-alt / 预约参观",
+    "path": [
+      "可滚动内容",
+      "内容",
+      "↗ M10-book / Button"
+    ],
+    "key": "wbVXZYOws3yeTfoN",
+    "target": "M10-book / 校园身份登录"
+  },
+  {
+    "page": "W01 / 首页",
+    "path": [
+      "内容",
+      "内容",
+      "厦园晨雾 / 首屏",
+      "首屏叙事",
+      "首屏操作",
+      "↗ W02 / Button"
+    ],
+    "key": "wbVXZYdCD7ia4csT",
+    "target": "W02 / 发现校园展览"
+  },
+  {
+    "page": "W01 / 首页",
+    "path": [
+      "内容",
+      "内容",
+      "厦园晨雾 / 首屏",
+      "首屏叙事",
+      "首屏操作",
+      "↗ W06 / Button"
+    ],
+    "key": "wbVXZYeHhW8TcREU",
+    "target": "W06 / 把你的厦园，带进一场展览。"
+  },
+  {
+    "page": "W01 / 首页",
+    "path": [
+      "内容",
+      "内容",
+      "本期展览标题",
+      "↗ W02 / 全部展览  ↗"
+    ],
+    "key": "VXYiOphfVXYk5MuuwYKCNl",
+    "target": "W02 / 发现校园展览"
+  },
+  {
+    "page": "W01 / 首页",
+    "path": [
+      "内容",
+      "内容",
+      "三场展览",
+      "↗ W03 / ExhibitionCard"
+    ],
+    "key": "wbVXZYg09ttxrA36",
+    "target": "W03 / 厦园有光"
+  },
+  {
+    "page": "W01 / 首页",
+    "path": [
+      "内容",
+      "内容",
+      "三场展览",
+      "↗ W06 / ExhibitionCard"
+    ],
+    "key": "wbVXZYh7lriBvrCV",
+    "target": "W06 / 把你的厦园，带进一场展览。"
+  },
+  {
+    "page": "W01 / 首页",
+    "path": [
+      "内容",
+      "内容",
+      "三场展览",
+      "↗ W03-archive / ExhibitionCard"
+    ],
+    "key": "wbVXZYi2VdkGDEKE",
+    "target": "W03-archive / 厦园有光"
+  },
+  {
+    "page": "W01 / 首页",
+    "path": [
+      "内容",
+      "内容",
+      "征集公告",
+      "↗ W06 / Button"
+    ],
+    "key": "wbVXZYj1WtJga095",
+    "target": "W06 / 把你的厦园，带进一场展览。"
+  },
+  {
+    "page": "W02 / 发现校园展览",
+    "path": [
+      "内容",
+      "展览筛选",
+      "↗ W02-archive / Button"
+    ],
+    "key": "wbVXZYmDvvQYeSjt",
+    "target": "W02-archive / 发现校园展览"
+  },
+  {
+    "page": "W02 / 发现校园展览",
+    "path": [
+      "内容",
+      "展览筛选",
+      "↗ W02-search / Button"
+    ],
+    "key": "wbVXZYn9hinlUk8E",
+    "target": "W02-search / 发现校园展览"
+  },
+  {
+    "page": "W02 / 发现校园展览",
+    "path": [
+      "内容",
+      "展览筛选",
+      "↗ S01-web / Button"
+    ],
+    "key": "wbVXZYoGqMhFrDyJ",
+    "target": "S01-web / 没有找到相关展览"
+  },
+  {
+    "page": "W02 / 发现校园展览",
+    "path": [
+      "内容",
+      "展览列表",
+      "↗ W03 / ExhibitionCard"
+    ],
+    "key": "wbVXZYpJJtv0juQH",
+    "target": "W03 / 厦园有光"
+  },
+  {
+    "page": "W02 / 发现校园展览",
+    "path": [
+      "内容",
+      "展览列表",
+      "↗ W06-phoenix / ExhibitionCard"
+    ],
+    "key": "wbVXZYqEYSWlHiap",
+    "target": "W06-phoenix / 把你的厦园，带进一场展览。"
+  },
+  {
+    "page": "W02 / 发现校园展览",
+    "path": [
+      "内容",
+      "展览列表",
+      "↗ W03-archive / ExhibitionCard"
+    ],
+    "key": "wbVXZYr9cub7cJDR",
+    "target": "W03-archive / 厦园有光"
+  },
+  {
+    "page": "W03 / 厦园有光",
+    "path": [
+      "内容",
+      "展览封面与信息",
+      "展览信息",
+      "↗ W10 / Button"
+    ],
+    "key": "wbVXZYsnh9ltQ18m",
+    "target": "W10 / 预约一段看展的时间"
+  },
+  {
+    "page": "W03 / 厦园有光",
+    "path": [
+      "内容",
+      "展览封面与信息",
+      "展览信息",
+      "↗ W04 / Button"
+    ],
+    "key": "wbVXZYtnWCM3dXZC",
+    "target": "W04 / 厦园有光 · 线上展厅"
+  },
+  {
+    "page": "W03 / 厦园有光",
+    "path": [
+      "内容",
+      "四个展区",
+      "↗ W04 / 分区"
+    ],
+    "key": "wbVXZYwcnGJjpMgA",
+    "target": "W04 / 厦园有光 · 线上展厅"
+  },
+  {
+    "page": "W04 / 厦园有光 · 线上展厅",
+    "path": [
+      "内容",
+      "展区目录",
+      "筛选 / 瓦影与窗"
+    ],
+    "key": "wbVXZYy0qLllA5ba",
+    "target": "W04-section-0 / 瓦影与窗"
+  },
+  {
+    "page": "W04 / 厦园有光 · 线上展厅",
+    "path": [
+      "内容",
+      "展区目录",
+      "筛选 / 湖畔日常"
+    ],
+    "key": "wbVXZYywMlRGs9w",
+    "target": "W04-section-1 / 湖畔日常"
+  },
+  {
+    "page": "W04 / 厦园有光 · 线上展厅",
+    "path": [
+      "内容",
+      "展区目录",
+      "筛选 / 向海而生"
+    ],
+    "key": "wbVXZZ03PoJjNR1X",
+    "target": "W04-section-2 / 向海而生"
+  },
+  {
+    "page": "W04 / 厦园有光 · 线上展厅",
+    "path": [
+      "内容",
+      "展区目录",
+      "筛选 / 凤凰花季"
+    ],
+    "key": "wbVXZZ0yQLJI7a7F",
+    "target": "W04-section-3 / 凤凰花季"
+  },
+  {
+    "page": "W05-0 / 瓦影与窗",
+    "path": [
+      "内容",
+      "作品阅读",
+      "作品展签",
+      "↗ W04 / Button"
+    ],
+    "key": "wbVXZZ2R196ekpE7",
+    "target": "W04 / 厦园有光 · 线上展厅"
+  },
+  {
+    "page": "W06 / 把你的厦园，带进一场展览。",
+    "path": [
+      "内容",
+      "征集主题",
+      "征集要求",
+      "↗ W12-submit / Button"
+    ],
+    "key": "wbVXZZ4DyLnCffuF",
+    "target": "W12-submit / 欢迎回到展序"
+  },
+  {
+    "page": "W06 / 把你的厦园，带进一场展览。",
+    "path": [
+      "内容",
+      "征集主题",
+      "征集要求",
+      "↗ S03-web / Button"
+    ],
+    "key": "wbVXZZ5Dr70Hjovh",
+    "target": "S03-web / 本次征集已结束"
+  },
+  {
+    "page": "W07 / 提交你的作品",
+    "path": [
+      "内容",
+      "投稿编辑区",
+      "作品上传",
+      "↗ S02-web / Button"
+    ],
+    "key": "wbVXZZ89rEUzsypI",
+    "target": "S02-web / 文件未上传成功"
+  },
+  {
+    "page": "W07 / 提交你的作品",
+    "path": [
+      "内容",
+      "投稿编辑区",
+      "作品信息",
+      "提交操作",
+      "↗ W09-submitted / Button"
+    ],
+    "key": "wbVXZZ9LVP9xlAfv",
+    "target": "W09-submitted / 作品已提交，等待审核"
+  },
+  {
+    "page": "W07 / 提交你的作品",
+    "path": [
+      "内容",
+      "投稿编辑区",
+      "作品信息",
+      "提交操作",
+      "↗ W08-draft / Button"
+    ],
+    "key": "wbVXZZAPu6WVyiOe",
+    "target": "W08-draft / 我的投稿"
+  },
+  {
+    "page": "W07 / 提交你的作品",
+    "path": [
+      "内容",
+      "投稿编辑区",
+      "作品信息",
+      "提交操作",
+      "↗ S02-required / Button"
+    ],
+    "key": "wbVXZZBgu5PHHsF3",
+    "target": "S02-required / 还差一点，作品就能提交"
+  },
+  {
+    "page": "W08 / 我的投稿",
+    "path": [
+      "内容",
+      "↗ W07 / Button"
+    ],
+    "key": "wbVXZZO1zAKGfYBB",
+    "target": "W07 / 提交你的作品"
+  },
+  {
+    "page": "W08 / 我的投稿",
+    "path": [
+      "内容",
+      "数据表",
+      "数据行 1",
+      "↗ W09 / 查看进度 →"
+    ],
+    "key": "VXYiOsXEVXYk5MvprpO1WZ",
+    "target": "W09 / 作品进度 · 瓦影与窗"
+  },
+  {
+    "page": "W08 / 我的投稿",
+    "path": [
+      "内容",
+      "数据表",
+      "数据行 2",
+      "↗ W09-approved / 查看进度 →"
+    ],
+    "key": "VXYiOsZeVXYk5MvdVK4S83",
+    "target": "W09-approved / 你的作品已入选"
+  },
+  {
+    "page": "W08 / 我的投稿",
+    "path": [
+      "内容",
+      "数据表",
+      "数据行 3",
+      "↗ W07 / 编辑草稿 →"
+    ],
+    "key": "VXYiOsa4VXYk5Mvy9JjYO4",
+    "target": "W07 / 提交你的作品"
+  },
+  {
+    "page": "W09 / 作品进度 · 瓦影与窗",
+    "path": [
+      "内容",
+      "审核反馈与记录",
+      "审核时间线",
+      "↗ W07-revision / Button"
+    ],
+    "key": "wbVXZZRLcn5CD16W",
+    "target": "W07-revision / 提交你的作品"
+  },
+  {
+    "page": "W09 / 作品进度 · 瓦影与窗",
+    "path": [
+      "内容",
+      "审核反馈与记录",
+      "审核时间线",
+      "↗ W08 / Button"
+    ],
+    "key": "wbVXZZSN3KxA5M9e",
+    "target": "W08 / 我的投稿"
+  },
+  {
+    "page": "W10 / 预约一段看展的时间",
+    "path": [
+      "内容",
+      "预约时段",
+      "↗ S05-web / 场次 10:00 — 12:00"
+    ],
+    "key": "wbVXZZToKeUq6xSd",
+    "target": "S05-web / 这个时段已满额"
+  },
+  {
+    "page": "W10 / 预约一段看展的时间",
+    "path": [
+      "内容",
+      "↗ W12-book / Button"
+    ],
+    "key": "wbVXZZVxwWz2iKUY",
+    "target": "W12-book / 欢迎回到展序"
+  },
+  {
+    "page": "W11 / 我的展序",
+    "path": [
+      "内容",
+      "个人中心页签",
+      "↗ W11-favorites / Button"
+    ],
+    "key": "wbVXZZXLy7OX3T8",
+    "target": "W11-favorites / 我的收藏"
+  },
+  {
+    "page": "W11 / 我的展序",
+    "path": [
+      "内容",
+      "个人中心页签",
+      "↗ W08 / Button"
+    ],
+    "key": "wbVXZZYHlLpcv7ph",
+    "target": "W08 / 我的投稿"
+  },
+  {
+    "page": "W11 / 我的展序",
+    "path": [
+      "内容",
+      "个人中心页签",
+      "↗ W11-messages / Button"
+    ],
+    "key": "wbVXZZZS5EWBAFd8",
+    "target": "W11-messages / 与你的创作有关的新消息"
+  },
+  {
+    "page": "W11 / 我的展序",
+    "path": [
+      "内容",
+      "预约操作",
+      "↗ S06-web / Button"
+    ],
+    "key": "wbVXZZaSmKlKyvSv",
+    "target": "S06-web / 确认取消这次预约？"
+  },
+  {
+    "page": "W11 / 我的展序",
+    "path": [
+      "内容",
+      "预约操作",
+      "↗ W08 / Button"
+    ],
+    "key": "wbVXZZbNQhqmEEbG",
+    "target": "W08 / 我的投稿"
+  },
+  {
+    "page": "W12 / 欢迎回到展序",
+    "path": [
+      "内容",
+      "校园身份登录",
+      "登录表单",
+      "↗ W11 / Button"
+    ],
+    "key": "wbVXZZczs5jWTEMF",
+    "target": "W11 / 我的展序"
+  },
+  {
+    "page": "W12 / 欢迎回到展序",
+    "path": [
+      "内容",
+      "校园身份登录",
+      "登录表单",
+      "↗ W01 / Button"
+    ],
+    "key": "wbVXZZe01llFNdcQ",
+    "target": "W01 / 首页"
+  },
+  {
+    "page": "W12-submit / 欢迎回到展序",
+    "path": [
+      "内容",
+      "校园身份登录",
+      "登录表单",
+      "↗ W07 / Button"
+    ],
+    "key": "wbVXZZhNDjvCPWgd",
+    "target": "W07 / 提交你的作品"
+  },
+  {
+    "page": "W12-submit / 欢迎回到展序",
+    "path": [
+      "内容",
+      "校园身份登录",
+      "登录表单",
+      "↗ W01 / Button"
+    ],
+    "key": "wbVXZZiPBM5D78UJ",
+    "target": "W01 / 首页"
+  },
+  {
+    "page": "W12-book / 欢迎回到展序",
+    "path": [
+      "内容",
+      "校园身份登录",
+      "登录表单",
+      "↗ W10 / Button"
+    ],
+    "key": "wbVXZZjvoj3C6RBD",
+    "target": "W10 / 预约一段看展的时间"
+  },
+  {
+    "page": "W12-book / 欢迎回到展序",
+    "path": [
+      "内容",
+      "校园身份登录",
+      "登录表单",
+      "↗ W01 / Button"
+    ],
+    "key": "wbVXZZl7BG2ZCcPO",
+    "target": "W01 / 首页"
+  },
+  {
+    "page": "W08-draft / 我的投稿",
+    "path": [
+      "内容",
+      "↗ W07 / Button"
+    ],
+    "key": "wbVXZZmU8iaBpxhP",
+    "target": "W07 / 提交你的作品"
+  },
+  {
+    "page": "W08-draft / 我的投稿",
+    "path": [
+      "内容",
+      "数据表",
+      "数据行 1",
+      "↗ W07 / 查看进度 →"
+    ],
+    "key": "VXYiOu4eVXYk5Mv6c92W0P",
+    "target": "W07 / 提交你的作品"
+  },
+  {
+    "page": "W08-draft / 我的投稿",
+    "path": [
+      "内容",
+      "数据表",
+      "数据行 2",
+      "↗ W09-approved / 查看进度 →"
+    ],
+    "key": "VXYiOu7GVXYk5MvKmU9Buz",
+    "target": "W09-approved / 你的作品已入选"
+  },
+  {
+    "page": "W08-draft / 我的投稿",
+    "path": [
+      "内容",
+      "数据表",
+      "数据行 3",
+      "↗ W07 / 编辑草稿 →"
+    ],
+    "key": "VXYiOuAiVXYk5MvozDXeCa",
+    "target": "W07 / 提交你的作品"
+  },
+  {
+    "page": "W07-revision / 提交你的作品",
+    "path": [
+      "内容",
+      "投稿编辑区",
+      "作品上传",
+      "↗ S02-web / Button"
+    ],
+    "key": "wbVXZZrQawnzEERK",
+    "target": "S02-web / 文件未上传成功"
+  },
+  {
+    "page": "W07-revision / 提交你的作品",
+    "path": [
+      "内容",
+      "投稿编辑区",
+      "作品信息",
+      "提交操作",
+      "↗ W09-resubmitted / Button"
+    ],
+    "key": "wbVXZZsnWy46RpIA",
+    "target": "W09-resubmitted / 修改版本已重新提交"
+  },
+  {
+    "page": "W07-revision / 提交你的作品",
+    "path": [
+      "内容",
+      "投稿编辑区",
+      "作品信息",
+      "提交操作",
+      "↗ W08-draft / Button"
+    ],
+    "key": "wbVXZZtt6KB3Ve19",
+    "target": "W08-draft / 我的投稿"
+  },
+  {
+    "page": "W07-revision / 提交你的作品",
+    "path": [
+      "内容",
+      "投稿编辑区",
+      "作品信息",
+      "提交操作",
+      "↗ S02-required / Button"
+    ],
+    "key": "wbVXZZuxO1b8uo6G",
+    "target": "S02-required / 还差一点，作品就能提交"
+  },
+  {
+    "page": "W11-booked / 我的展序",
+    "path": [
+      "内容",
+      "个人中心页签",
+      "↗ W11 / Button"
+    ],
+    "key": "wbVXZZwfqztIGfOg",
+    "target": "W11 / 我的展序"
+  },
+  {
+    "page": "W11-booked / 我的展序",
+    "path": [
+      "内容",
+      "个人中心页签",
+      "↗ W11-favorites / Button"
+    ],
+    "key": "wbVXZZxaXZ70QbmC",
+    "target": "W11-favorites / 我的收藏"
+  },
+  {
+    "page": "W11-booked / 我的展序",
+    "path": [
+      "内容",
+      "个人中心页签",
+      "↗ W08 / Button"
+    ],
+    "key": "wbVXZZyW5pFOGynI",
+    "target": "W08 / 我的投稿"
+  },
+  {
+    "page": "W11-booked / 我的展序",
+    "path": [
+      "内容",
+      "个人中心页签",
+      "↗ W11-messages / Button"
+    ],
+    "key": "wbVXZa3Bt4SVm7nv",
+    "target": "W11-messages / 与你的创作有关的新消息"
+  },
+  {
+    "page": "W11-booked / 我的展序",
+    "path": [
+      "内容",
+      "预约操作",
+      "↗ S06-web / Button"
+    ],
+    "key": "wbVXZa4UX9LzvcTy",
+    "target": "S06-web / 确认取消这次预约？"
+  },
+  {
+    "page": "W11-booked / 我的展序",
+    "path": [
+      "内容",
+      "预约操作",
+      "↗ W08 / Button"
+    ],
+    "key": "wbVXZa5UyVvOc7ur",
+    "target": "W08 / 我的投稿"
+  },
+  {
+    "page": "W09-submitted / 作品已提交，等待审核",
+    "path": [
+      "内容",
+      "状态反馈",
+      "反馈内容",
+      "↗ W08-pending / Button"
+    ],
+    "key": "wbVXZa6wdpGcBYdK",
+    "target": "W08-pending / 我的投稿"
+  },
+  {
+    "page": "W09-submitted / 作品已提交，等待审核",
+    "path": [
+      "内容",
+      "状态反馈",
+      "反馈内容",
+      "↗ W09 / Button"
+    ],
+    "key": "wbVXZa85846yVd3c",
+    "target": "W09 / 作品进度 · 瓦影与窗"
+  },
+  {
+    "page": "W09-resubmitted / 修改版本已重新提交",
+    "path": [
+      "内容",
+      "状态反馈",
+      "反馈内容",
+      "↗ W08-pending / Button"
+    ],
+    "key": "wbVXZa9nwN9kXp7h",
+    "target": "W08-pending / 我的投稿"
+  },
+  {
+    "page": "W09-resubmitted / 修改版本已重新提交",
+    "path": [
+      "内容",
+      "状态反馈",
+      "反馈内容",
+      "↗ W09-approved / Button"
+    ],
+    "key": "wbVXZaAqArcfmktv",
+    "target": "W09-approved / 你的作品已入选"
+  },
+  {
+    "page": "W09-approved / 你的作品已入选",
+    "path": [
+      "内容",
+      "状态反馈",
+      "反馈内容",
+      "↗ W08 / Button"
+    ],
+    "key": "wbVXZaCd9KrfjYmg",
+    "target": "W08 / 我的投稿"
+  }
+]

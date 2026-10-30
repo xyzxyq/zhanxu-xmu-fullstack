@@ -1,0 +1,226 @@
+[
+  {
+    "id": "VariableID:16:7",
+    "name": "favorite/0",
+    "nativeName": "favorite_0",
+    "type": "BOOLEAN",
+    "value": true
+  },
+  {
+    "id": "VariableID:16:8",
+    "name": "favorite/1",
+    "nativeName": "favorite_1",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:16:9",
+    "name": "favorite/2",
+    "nativeName": "favorite_2",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:16:10",
+    "name": "favorite/3",
+    "nativeName": "favorite_3",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:16:11",
+    "name": "favorite/4",
+    "nativeName": "favorite_4",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:16:12",
+    "name": "favorite/5",
+    "nativeName": "favorite_5",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:16:13",
+    "name": "favorite/6",
+    "nativeName": "favorite_6",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:16:14",
+    "name": "favorite/7",
+    "nativeName": "favorite_7",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:16:15",
+    "name": "favorite/8",
+    "nativeName": "favorite_8",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:16:16",
+    "name": "favorite/9",
+    "nativeName": "favorite_9",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:16:17",
+    "name": "favorite/10",
+    "nativeName": "favorite_10",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:16:18",
+    "name": "favorite/11",
+    "nativeName": "favorite_11",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:28:2",
+    "name": "favorite/empty",
+    "nativeName": "favorite_empty",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:37:2",
+    "name": "booking/reservationActive",
+    "nativeName": "booking_reservationActive",
+    "type": "BOOLEAN",
+    "value": true
+  },
+  {
+    "id": "VariableID:37:3",
+    "name": "booking/reservationCancelled",
+    "nativeName": "booking_reservationCancelled",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:37:4",
+    "name": "booking/lateSession",
+    "nativeName": "booking_lateSession",
+    "type": "BOOLEAN",
+    "value": false
+  },
+  {
+    "id": "VariableID:37:5",
+    "name": "booking/reserveCount",
+    "nativeName": "booking_reserveCount",
+    "type": "STRING",
+    "value": "22"
+  },
+  {
+    "id": "VariableID:37:6",
+    "name": "booking/remaining14",
+    "nativeName": "booking_remaining14",
+    "type": "STRING",
+    "value": "18"
+  },
+  {
+    "id": "VariableID:37:7",
+    "name": "booking/remaining16",
+    "nativeName": "booking_remaining16",
+    "type": "STRING",
+    "value": "25"
+  },
+  {
+    "id": "VariableID:37:8",
+    "name": "booking/checkedCount",
+    "nativeName": "booking_checkedCount",
+    "type": "STRING",
+    "value": "8"
+  },
+  {
+    "id": "VariableID:37:9",
+    "name": "booking/label14",
+    "nativeName": "booking_label14",
+    "type": "STRING",
+    "value": "余 18 / 40 席"
+  },
+  {
+    "id": "VariableID:37:10",
+    "name": "booking/label14Selected",
+    "nativeName": "booking_label14Selected",
+    "type": "STRING",
+    "value": "余 18 / 40 席 · 已选中"
+  },
+  {
+    "id": "VariableID:37:11",
+    "name": "booking/label16",
+    "nativeName": "booking_label16",
+    "type": "STRING",
+    "value": "余 25 / 40 席"
+  },
+  {
+    "id": "VariableID:37:12",
+    "name": "booking/label16Selected",
+    "nativeName": "booking_label16Selected",
+    "type": "STRING",
+    "value": "余 25 / 40 席 · 已选中"
+  },
+  {
+    "id": "VariableID:37:13",
+    "name": "booking/mobile14",
+    "nativeName": "booking_mobile14",
+    "type": "STRING",
+    "value": "余 18 席"
+  },
+  {
+    "id": "VariableID:37:14",
+    "name": "booking/mobile14Selected",
+    "nativeName": "booking_mobile14Selected",
+    "type": "STRING",
+    "value": "余 18 席 · 已选中"
+  },
+  {
+    "id": "VariableID:37:15",
+    "name": "booking/mobile16",
+    "nativeName": "booking_mobile16",
+    "type": "STRING",
+    "value": "余 25 席"
+  },
+  {
+    "id": "VariableID:37:16",
+    "name": "booking/mobile16Selected",
+    "nativeName": "booking_mobile16Selected",
+    "type": "STRING",
+    "value": "余 25 席 · 已选中"
+  },
+  {
+    "id": "VariableID:37:17",
+    "name": "booking/passStatus",
+    "nativeName": "booking_passStatus",
+    "type": "STRING",
+    "value": "● 预约有效"
+  },
+  {
+    "id": "VariableID:37:18",
+    "name": "booking/passMessage",
+    "nativeName": "booking_passMessage",
+    "type": "STRING",
+    "value": "请向工作人员出示此凭证"
+  },
+  {
+    "id": "VariableID:53:2",
+    "name": "booking/reservationInfo",
+    "nativeName": "booking_reservationInfo",
+    "type": "STRING",
+    "value": "RSV-001\n预约状态：有效；请在入场时出示凭证。"
+  },
+  {
+    "id": "VariableID:53:3",
+    "name": "booking/passSession",
+    "nativeName": "booking_passSession",
+    "type": "STRING",
+    "value": "11.26 14:00 — 16:00\n思明校区 · 校内展厅（示范）"
+  }
+]

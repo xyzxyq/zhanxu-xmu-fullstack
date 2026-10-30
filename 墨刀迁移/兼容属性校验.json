@@ -1,0 +1,16 @@
+{
+  "resolved": 2673,
+  "images": 134,
+  "colors": 4478,
+  "nodes": 7233,
+  "blobs": 1539,
+  "hero": {
+    "font": {
+      "family": "LXGW WenKai TC",
+      "style": "Regular",
+      "postscript": ""
+    },
+    "size": 62
+  },
+  "roundtrip": "PASS"
+}

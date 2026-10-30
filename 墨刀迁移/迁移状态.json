@@ -1,0 +1,30 @@
+{
+  "status": "waiting_for_figma_login",
+  "source_figma": "jfLt6B1elspRvgGAt3ff7P",
+  "original_modao": "https://modao.cc/proto/design/pb2mv0kegj9axeumj",
+  "compatible_design": "https://modao.cc/design/editor/pb3mv0nad9fqmbti1",
+  "compatible_proto_pilot": "https://modao.cc/proto/design/pb2mv0nirmqg2rhki",
+  "current_validation": "两页-独立图层验证.fig",
+  "core_pages": 32,
+  "known_import_failures": [
+    "复杂交互解析失败",
+    "部分整份与分端导入任务解析超时"
+  ],
+  "verified": [
+    "原始导入备份已保存",
+    "兼容设计首页的水彩图与手写字体恢复",
+    "兼容原型字号、颜色与图片恢复"
+  ],
+  "pending": [
+    "展开实例后的三端原型导入",
+    "墨刀原生交互和变量",
+    "32主页面与业务路径验收"
+  ],
+  "actual_text_rows": 3853,
+  "actual_pose_rows": 8594,
+  "figma_browser": "访客模式，等待原有账号登录以官方导出兼容副本",
+  "unverified": [
+    "三端正式稿尚未通过墨刀转换与预览验收",
+    "墨刀原生连线与变量尚未完成"
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "createdNodeIds": [
+    "3:50",
+    "3:51",
+    "3:52",
+    "3:53",
+    "3:54",
+    "3:55",
+    "3:56",
+    "3:57",
+    "3:58",
+    "3:59",
+    "3:60",
+    "3:61",
+    "3:62",
+    "3:63",
+    "3:64",
+    "3:73",
+    "3:65",
+    "3:66",
+    "3:67",
+    "3:68",
+    "3:69",
+    "3:70",
+    "3:71",
+    "3:72",
+    "3:80",
+    "3:74",
+    "3:75",
+    "3:76",
+    "3:77",
+    "3:78",
+    "3:79",
+    "3:81",
+    "3:82",
+    "3:83",
+    "3:84",
+    "3:85",
+    "3:86",
+    "3:87",
+    "3:88",
+    "3:89",
+    "3:90",
+    "3:91",
+    "3:92",
+    "3:93",
+    "3:94",
+    "3:95",
+    "3:96",
+    "3:97",
+    "3:98",
+    "3:99",
+    "3:100",
+    "3:101",
+    "3:102",
+    "3:103",
+    "3:104",
+    "3:105",
+    "3:106",
+    "3:107",
+    "3:108",
+    "3:109",
+    "3:110",
+    "3:111",
+    "3:112",
+    "3:113",
+    "3:114",
+    "3:115",
+    "3:116",
+    "3:117",
+    "3:118",
+    "3:119",
+    "3:120",
+    "3:121"
+  ],
+  "variables": {
+    "paper": "VariableID:3:6",
+    "ink": "VariableID:3:8",
+    "muted": "VariableID:3:10",
+    "clay": "VariableID:3:12",
+    "lake": "VariableID:3:14",
+    "sand": "VariableID:3:16",
+    "white": "VariableID:3:18",
+    "border": "VariableID:3:20",
+    "soft": "VariableID:3:22",
+    "error": "VariableID:3:24",
+    "space4": "VariableID:3:25",
+    "space8": "VariableID:3:26",
+    "space12": "VariableID:3:27",
+    "space16": "VariableID:3:28",
+    "space20": "VariableID:3:29",
+    "space24": "VariableID:3:30",
+    "space32": "VariableID:3:31",
+    "space48": "VariableID:3:32",
+    "space64": "VariableID:3:33",
+    "space96": "VariableID:3:34",
+    "radius8": "VariableID:3:35",
+    "radius12": "VariableID:3:36",
+    "radius24": "VariableID:3:37"
+  },
+  "styles": {
+    "display": "S:59806b5d772571366107b2657d60e0cb73eb5536,",
+    "hero": "S:3ac22c393c9514566ec9f5a18fe2e616b2404326,",
+    "heading": "S:ca162346332dc1308c20d3b7ba4da9719af10ba2,",
+    "title": "S:f0bda80630316e6bf0b51581baa475c84702aee2,",
+    "subtitle": "S:02c35dfb53932eb0bd7c16126919da034276436c,",
+    "body": "S:b2a7e71c73a186013333bc24c64051061889199f,",
+    "bodyMedium": "S:81fab6c7b83e4d4503f0f56edba830a8ef06f585,",
+    "small": "S:856f2c97f443056e8cfd52f0c26c61c547f1cfd6,",
+    "caption": "S:53847498d90c3719014d833ea00901fcc9f429a7,",
+    "number": "S:afed4dc9e143d7ff7497d7418a5e87a09d3e8af7,",
+    "eyebrow": "S:a5524ccf8ac0fa650b9fb75bb4443dcb44a8e134,",
+    "english": "S:5e3d42fb57dec0327030dee69a29453939d88292,",
+    "handwritten": "S:989bd50d8da392d1ae0f375f1fa55f1084e12e67,",
+    "handnote": "S:76d0523778ac6d0efaa8fb12b946af57feb02724,"
+  },
+  "components": {
+    "Button": "3:65",
+    "ButtonSecondary": "3:67",
+    "ButtonQuiet": "3:69",
+    "ButtonDisabled": "3:71",
+    "Input": "3:74",
+    "InputError": "3:77",
+    "Badge": "3:81",
+    "ArtworkLabel": "3:83",
+    "ExhibitionCard": "3:86",
+    "ArtworkCard": "3:91",
+    "Session": "3:95",
+    "TableRow": "3:98",
+    "Timeline": "3:105",
+    "Tabs": "3:110",
+    "WebNav": "3:115",
+    "HandUnderline": "20:4",
+    "HandArrow": "20:7",
+    "HandWave": "20:10"
+  },
+  "collections": [
+    "VariableCollectionId:3:2",
+    "VariableCollectionId:3:3",
+    "VariableCollectionId:3:4"
+  ],
+  "fonts": [
+    {
+      "family": "Chiron Hei HK",
+      "style": "Regular"
+    },
+    {
+      "family": "Chiron Hei HK",
+      "style": "Medium"
+    },
+    {
+      "family": "Chiron Hei HK",
+      "style": "SemiBold"
+    },
+    {
+      "family": "DM Sans",
+      "style": "Regular"
+    },
+    {
+      "family": "DM Sans",
+      "style": "Medium"
+    },
+    {
+      "family": "LXGW Marker Gothic",
+      "style": "Regular"
+    },
+    {
+      "family": "LXGW WenKai TC",
+      "style": "Regular"
+    }
+  ],
+  "counts": {
+    "variables": 23,
+    "styles": 12,
+    "components": 15
+  },
+  "bounds": [
+    {
+      "id": "3:50",
+      "name": "01 / 字体与品牌色",
+      "x": 160,
+      "y": 100,
+      "width": 1280,
+      "height": 520
+    },
+    {
+      "id": "3:73",
+      "name": "Button",
+      "x": 160,
+      "y": 740,
+      "width": 840,
+      "height": 100
+    },
+    {
+      "id": "3:80",
+      "name": "Input",
+      "x": 160,
+      "y": 930,
+      "width": 756,
+      "height": 136
+    },
+    {
+      "id": "3:81",
+      "name": "StatusTag",
+      "x": 1040,
+      "y": 760,
+      "width": 132,
+      "height": 36
+    },
+    {
+      "id": "3:83",
+      "name": "ArtworkLabel",
+      "x": 1040,
+      "y": 930,
+      "width": 360,
+      "height": 106
+    },
+    {
+      "id": "3:86",
+      "name": "ExhibitionCard",
+      "x": 160,
+      "y": 1160,
+      "width": 392,
+      "height": 350
+    },
+    {
+      "id": "3:91",
+      "name": "ArtworkCard",
+      "x": 620,
+      "y": 1160,
+      "width": 284,
+      "height": 390
+    },
+    {
+      "id": "3:95",
+      "name": "SessionSlot",
+      "x": 1040,
+      "y": 1160,
+      "width": 308,
+      "height": 92
+    },
+    {
+      "id": "3:98",
+      "name": "TableRow",
+      "x": 160,
+      "y": 1680,
+      "width": 1036,
+      "height": 68
+    },
+    {
+      "id": "3:105",
+      "name": "TimelineItem",
+      "x": 160,
+      "y": 1840,
+      "width": 580,
+      "height": 78
+    },
+    {
+      "id": "3:110",
+      "name": "Tabs",
+      "x": 800,
+      "y": 1840,
+      "width": 600,
+      "height": 52
+    },
+    {
+      "id": "3:115",
+      "name": "WebNavigation",
+      "x": 160,
+      "y": 2010,
+      "width": 1440,
+      "height": 88
+    }
+  ]
+}

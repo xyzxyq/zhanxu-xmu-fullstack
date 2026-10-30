@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>section_placements · 数据库表设计</title>
+<style>
+*{box-sizing:border-box} body{margin:0;padding:38px 48px;background:#f3f5f7;color:#233b45;font:15px/1.55 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}
+header{border-bottom:2px solid #284f5b;padding-bottom:20px;margin-bottom:24px} .eyebrow{font-size:12px;letter-spacing:2px;color:#78858c} h1{font-size:30px;margin:12px 0 7px} h1 code{font-size:24px;color:#a95541} p{margin:6px 0;color:#5d7079} .badges{display:flex;gap:12px;margin:15px 0} .badges span{padding:6px 12px;background:white;border:1px solid #dce4e8;border-radius:6px;font-size:13px}
+table{width:100%;border-collapse:collapse;background:white;font-size:14px} th{padding:12px;text-align:left;background:#284f5b;color:white;font-weight:500} td{padding:10px 12px;border-bottom:1px solid #e5ebef;vertical-align:top} tr:nth-child(even) td{background:#f8fafb} td:first-child{font-family:ui-monospace,monospace;font-weight:600} h2{font-size:18px;margin:24px 0 10px} pre{white-space:pre-wrap;overflow-wrap:anywhere;margin:0;padding:18px;background:#e8eef1;border-radius:6px;font:13px/1.7 ui-monospace,monospace} footer{margin-top:18px;color:#6a7d86;font-size:12px}
+</style><header><div class="eyebrow">展序·厦大 / 数据库设计 / WEB 首页</div><h1>策展编排表 <code>section_placements</code></h1><p>指定展区、投稿、选用版本与顺序，决定首页精选作品。</p><div class="badges"><span>MySQL 8.4.11</span><span>数据库 zhanxu_xmu</span><span>8 个字段</span><span>5 行课程演示数据</span></div></header>
+<table><thead><tr><th>字段名</th><th>数据类型</th><th>允许空值</th><th>键标记</th><th>默认值</th><th>附加属性</th><th>数据库注释</th></tr></thead><tbody><tr><td>id</td><td>bigint unsigned</td><td>NO</td><td>PRI</td><td>—</td><td>auto_increment</td><td></td></tr><tr><td>section_id</td><td>bigint unsigned</td><td>NO</td><td>MUL</td><td>—</td><td></td><td></td></tr><tr><td>submission_id</td><td>bigint unsigned</td><td>NO</td><td>MUL</td><td>—</td><td></td><td></td></tr><tr><td>exhibition_id</td><td>bigint unsigned</td><td>NO</td><td></td><td>—</td><td></td><td></td></tr><tr><td>version_no</td><td>int unsigned</td><td>NO</td><td></td><td>—</td><td></td><td></td></tr><tr><td>sort_order</td><td>int unsigned</td><td>NO</td><td></td><td>0</td><td></td><td></td></tr><tr><td>wall_label</td><td>text</td><td>YES</td><td></td><td>—</td><td></td><td></td></tr><tr><td>created_at</td><td>datetime(3)</td><td>NO</td><td></td><td>CURRENT_TIMESTAMP(3)</td><td>DEFAULT_GENERATED</td><td></td></tr></tbody></table>
+<h2>主键、索引与约束（SHOW CREATE TABLE）</h2><pre>PRIMARY KEY (`id`)
+UNIQUE KEY `uq_section_placements_submission` (`section_id`,`submission_id`)
+UNIQUE KEY `uq_section_placements_order` (`section_id`,`sort_order`)
+KEY `fk_section_placements_section` (`section_id`,`exhibition_id`)
+KEY `fk_section_placements_submission` (`submission_id`,`exhibition_id`)
+KEY `fk_section_placements_version` (`submission_id`,`version_no`)
+CONSTRAINT `fk_section_placements_section` FOREIGN KEY (`section_id`, `exhibition_id`) REFERENCES `exhibition_sections` (`id`, `exhibition_id`) ON DELETE CASCADE
+CONSTRAINT `fk_section_placements_submission` FOREIGN KEY (`submission_id`, `exhibition_id`) REFERENCES `submissions` (`id`, `exhibition_id`)
+CONSTRAINT `fk_section_placements_version` FOREIGN KEY (`submission_id`, `version_no`) REFERENCES `submission_versions` (`submission_id`, `version_no`)</pre>
+<footer>来源：真实 MySQL INFORMATION_SCHEMA.COLUMNS 与 SHOW CREATE TABLE 查询结果。采集时间：2026-10-23T10:46:27+08:00。<br>PRI=主键，UNI=唯一键，MUL=非唯一索引；“—”表示 SQL NULL，“”空白表示数据库未设置相应属性。此页为表结构报告，非数据库客户端界面。</footer></html>

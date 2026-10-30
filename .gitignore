@@ -1,15 +1,22 @@
-# Local dependencies and build output
+# Reproducible dependencies and build outputs
 node_modules/
 dist/
 target/
 .vercel/
-# Local credentials; keep the safe configuration template
+__pycache__/
+# Private local configuration; retain public setup examples
 .env
 .env.*
 !.env.example
 *.pem
 *.key
-# macOS metadata and temporary browser evidence
+*.p12
+*.pfx
+# Local working copies and caches are not project source
+/GitHub源码仓库/
+/本机运行缓存-2026-10-30/
+# macOS metadata
 .DS_Store
 ._*
-tests/prototype-evidence/
+# Disposable test captures
+prototype-evidence/

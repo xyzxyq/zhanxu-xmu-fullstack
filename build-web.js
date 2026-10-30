@@ -1,0 +1,44 @@
+const page=await figma.getNodeByIdAsync('1:3');await figma.setCurrentPageAsync(page);
+{
+const {root,body}=await webshell('W02','发现校园展览','在山海之间，看见不同的创作与表达。',1);
+const filters=box('展览筛选',1248,'HORIZONTAL',null,0,16);body.appendChild(filters);for(const [l,t]of [['全部展览','W02'],['正在展出','W02'],['往期档案','W02-archive']])await button(filters,l,t,'ButtonSecondary',176);await button(filters,'搜索“建筑”','W02-search','ButtonQuiet',208);await button(filters,'搜索无结果','S01-web','ButtonQuiet',208);
+const list=box('展览列表',1248,'HORIZONTAL',null,0,24);body.appendChild(list);await exhibitioncard(list,'厦园有光','山海之间的青年创作展','● 正在展出 · 11.20 — 12.06',0);await exhibitioncard(list,'凤凰花开的季节','校园植物与日常的视觉记录','○ 征集中 · 截止 12.15',2,392,'W06-phoenix');await exhibitioncard(list,'窗与海的对话','嘉庚建筑视觉设计展','◌ 往期档案 · 线上持续开放',1,392,'W03-archive');
+await note(body,'从展览看见厦园','每场展览都有独立的策展叙事。进入线上展厅，也可以预约线下参观。');}
+{
+const {root,body}=await webshell('W03','厦园有光','山海之间的青年创作展',2);
+const row=box('展览封面与信息',1248,'HORIZONTAL',null,0,32);body.appendChild(row);image(row,0,760,360);const info=box('展览信息',456,'VERTICAL',null,0,16);row.appendChild(info);await badge(info,'● 正在展出');info.appendChild(await text('2026.11.20 — 12.06','title',456));info.appendChild(await text('思明校区 · 校内展厅（示范场地）\n12 件作品 / 6 位创作者 / 4 个展区','body',456,'muted'));await button(info,'预约线下参观  →','W10','Button',456);await button(info,'进入线上展厅','W04','ButtonSecondary',456);
+await section(body,'山海之间，创作有光');body.appendChild(await text('在红瓦与海风之间，我们收集属于厦园的细微日常。从一扇窗的光影、一片湖面的倒影，到凤凰花盛开的时节，这场展览邀请你重新观看熟悉的校园。作品以插画与视觉设计为载体，让不同的创作语言彼此对话。','body',1248,'muted'));
+const sections=box('四个展区',1248,'HORIZONTAL',null,0,24);body.appendChild(sections);for(let i=0;i<4;i++){const s=box('分区',294,'VERTICAL','soft',24,12);s.appendChild(await text('0'+(i+1),'english',246,'clay'));s.appendChild(await text(['瓦影与窗','湖畔日常','向海而生','凤凰花季'][i],'title',246));sections.appendChild(s);mark(s,'W04');}
+await note(body,'参观须知','免费预约，每场 40 人。作品与作者信息可在线查阅；线下入场请出示预约凭证。');root.resize(1440,1320);}
+{
+const {root,body}=await webshell('W04','厦园有光 · 线上展厅','十二件作品，四种观看厦园的方式。',3);
+const sections=box('展区目录',1248,'HORIZONTAL',null,0,16);body.appendChild(sections);for(const s of ['全部作品','瓦影与窗','湖畔日常','向海而生','凤凰花季'])await button(sections,s,'W04','ButtonSecondary',224);
+for(let j=0;j<3;j++){const row=box('作品网格 '+j,1248,'HORIZONTAL',null,0,24);body.appendChild(row);for(let k=0;k<4;k++)await artcard(row,j*4+k,294,280);}
+await note(body,'关于作品素材','本展为课程示范：水彩作品为原创生成概念图，视觉设计作品为原创矢量构图；作者为示范角色。');root.resize(1440,1840);}
+for(let i=0;i<A.length;i++){
+const a=A[i],id='W05-'+i;const {root,body}=await webshell(id,a.title,a.author+'（示范） · '+a.medium+' · 2026',4+i);if(i===0)frames.W05=root.id;
+const row=box('作品阅读',1248,'HORIZONTAL',null,0,48);body.appendChild(row);const visual=box('原作容器',720,'VERTICAL','white',24,0);row.appendChild(visual);art(visual,i,672,670,true);const words=box('作品展签',480,'VERTICAL',null,0,24);row.appendChild(words);words.appendChild(await text(a.section.toUpperCase(),'eyebrow',480,'clay'));words.appendChild(await text('创作说明','title',480));words.appendChild(await text('以'+a.section+'为线索，从校园日常中提取颜色、轮廓与光。让被忽略的细节进入一幅作品，在观看中重新理解厦园与山海的关系。','body',480,'muted'));words.appendChild(await text('作者  '+a.author+'（示范）\n媒介  '+a.medium+'\n所属展览  厦园有光\n展示授权  课程示范素材','small',480,'muted'));
+await button(words,'♡ 收藏作品','W05-saved-'+i,'Button',480);const nav=box('作品导航',480,'HORIZONTAL',null,0,16);words.appendChild(nav);await button(nav,'← 上一件','W05-'+((i+11)%12),'ButtonSecondary',232);await button(nav,'下一件 →','W05-'+((i+1)%12),'ButtonSecondary',232);await button(words,'返回线上展厅','W04','ButtonQuiet',480);root.resize(1440,1130);}
+{
+const {root,body}=await webshell('W06','把你的厦园，带进一场展览。','厦园有光 · 青年作品征集',16);const row=box('征集主题',1248,'HORIZONTAL',null,0,48);body.appendChild(row);image(row,2,470,420);const info=box('征集要求',730,'VERTICAL',null,0,20);row.appendChild(info);await badge(info,'○ 征集中');info.appendChild(await text('投稿截止  2026.11.05 23:59','title',730));info.appendChild(await text('征集类别：摄影 / 插画 / 视觉设计\n主题分区：瓦影与窗、湖畔日常、向海而生、凤凰花季\n文件规格：JPG / PNG，每张不超过 20 MB\n一张主图，最多四张细节图\n署名、创作说明与展示授权需完整填写。','body',730,'muted'));await button(info,'开始投稿  →','W12-submit','Button',730);await button(info,'查看截止状态','S03-web','ButtonQuiet',730);await note(body,'投稿与审核','提交后进入审核队列。需修改时会收到具体意见与修改截止时间；入选作品由策展人员编排后公开展示。');root.resize(1440,1150);}
+{
+const {root,body}=await webshell('W07','提交你的作品','厦园有光 / 我的创作中心 / 已预填示范内容',17);
+const row=box('投稿编辑区',1248,'HORIZONTAL',null,0,32);body.appendChild(row);const left=box('作品上传',450,'VERTICAL','white',24,16);row.appendChild(left);art(left,0,402,320,true);left.appendChild(await text('瓦影与窗.png · 3.5 MB','bodyMedium',402));left.appendChild(await text('主图已上传 · JPG / PNG，≤20 MB\n可补充最多四张细节图。','small',402,'muted'));await button(left,'更换文件 / 查看错误','S02-web','ButtonSecondary',402);
+const form=box('作品信息',766,'VERTICAL',null,0,16);row.appendChild(form);await input(form,'作品标题 *','瓦影与窗',766);await fields(form,[['公开署名 *','临舟（示范）'],['作品类别 *','插画 · 水彩']],766);await input(form,'创作说明 *（50–500 字）','以厦园建筑的窗与檐为线索，记录午后光线穿过石墙的层次。作品尝试让日常空间在纸面重新被看见，保留红瓦、石墙与海风共同构成的校园记忆。',766);form.appendChild(await text('☑ 我确认作品展示授权，并同意署名公开。','body',766));const actionsRow=box('提交操作',766,'HORIZONTAL',null,0,16);form.appendChild(actionsRow);await button(actionsRow,'提交审核','W09-submitted','Button',240);await button(actionsRow,'保存草稿','W08-draft','ButtonSecondary',240);await button(actionsRow,'必填项校验','S02-required','ButtonQuiet',240);root.resize(1440,1300);}
+{
+const {root,body}=await webshell('W08','我的投稿','从一份草稿，到被看见的作品。',18);await button(body,'继续投稿','W07','Button',240);
+await table(body,['编号','作品','展览','状态','更新时间','操作'],[['ZX-001','瓦影与窗','厦园有光','需修改','11.07 15:20','查看进度 →'],['ZX-006','窗的秩序','厦园有光','已入选','11.07 16:12','查看进度 →'],['草稿','湖面留白','厦园有光','未提交','11.04 10:25','编辑草稿 →']],1248,{0:'W09',1:'W09-approved',2:'W07'});}
+{
+const {root,body}=await webshell('W09','作品进度 · 瓦影与窗','ZX-001 / 厦园有光 / 当前版本 1',19);const row=box('审核反馈与记录',1248,'HORIZONTAL',null,0,32);body.appendChild(row);const left=box('作品缩略',380,'VERTICAL','white',24,12);row.appendChild(left);art(left,0,332,332,true);left.appendChild(await text('瓦影与窗 · 临舟（示范）','bodyMedium',332));const right=box('审核时间线',836,'VERTICAL',null,0,16);row.appendChild(right);await badge(right,'● 需修改');await note(right,'请补充创作过程说明','修改截止：2026.11.09 23:59。请补充灵感来源与制作过程，原图可保留。修改后重新提交审核。',836);await timeline(right,'审核意见：需修改','11.07 15:20 · 林老师',836);await timeline(right,'作品已提交','11.04 10:36 · 版本 1',836);await button(right,'修改并重新提交','W07-revision','Button',836);await button(right,'返回我的投稿','W08','ButtonSecondary',836);}
+{
+const {root,body}=await webshell('W10','预约一段看展的时间','厦园有光 / 免费参观 / 一人一份有效预约',20);await fields(body,[['参观日期','2026.11.26（周四）'],['参观场地','思明校区 · 校内展厅（示范）']]);
+const slots=box('预约时段',1248,'HORIZONTAL',null,0,24);body.appendChild(slots);for(const [time,remain,target]of [['10:00 — 12:00','已满额 · 40 / 40','S05-web'],['14:00 — 16:00','余 18 / 40 席 · 已选中','W10'],['16:00 — 18:00','余 25 / 40 席','W10-alt']]){const s=box('场次 '+time,400,'VERTICAL','white',24,12);s.strokes=[paint(time.startsWith('14')?'clay':'border')];s.strokeWeight=1;s.appendChild(await text(time,'title',352));s.appendChild(await text(remain,'body',352,time.startsWith('10')?'muted':'clay'));slots.appendChild(s);mark(s,target);}
+await note(body,'你的预约','日期：11 月 26 日 · 时段：14:00–16:00\n预约成功后可在“我的预约”查看凭证；场次开始前可取消。');await button(body,'确认预约  →','W11-booked','Button',320);await button(body,'未登录预约','W12-book','ButtonQuiet',320);}
+{
+const {root,body}=await webshell('W11','我的展序','你的收藏、预约与创作，都在这里。',21);const menu=box('个人中心页签',1248,'HORIZONTAL',null,0,16);body.appendChild(menu);for(const [l,t]of [['我的预约','W11'],['我的收藏','W11-favorites'],['创作档案','W08'],['消息通知','W11-messages']])await button(menu,l,t,'ButtonSecondary',296);
+await note(body,'厦园有光 · 已预约','11.26 14:00–16:00 · 思明校区 · 预约 RSV-001\n预约状态：有效；请在入场时出示凭证。');
+const r=box('预约操作',1248,'HORIZONTAL',null,0,16);body.appendChild(r);await button(r,'查看入场凭证','W11-credential','Button',280);await button(r,'取消预约','S06-web','ButtonSecondary',280);await button(r,'进入创作中心','W08','ButtonQuiet',280);
+await section(body,'最近收藏');const works=box('收藏作品',1248,'HORIZONTAL',null,0,24);body.appendChild(works);for(let i=0;i<3;i++)await artcard(works,i,392,220);}
+{
+const {root,body}=await webshell('W12','欢迎回到展序','登录后，收藏你的喜欢，记录你的创作。',22);const row=box('校园身份登录',1248,'HORIZONTAL',null,0,48);body.appendChild(row);image(row,2,600,640);const form=box('登录表单',600,'VERTICAL','white',32,24);row.appendChild(form);form.appendChild(await text('校园身份','heading',536));await input(form,'校园账号','2026••••01',536);await input(form,'密码','••••••••',536);form.appendChild(await text('☑ 记住本次登录','body',536,'muted'));await button(form,'登录，进入我的展序','W11','Button',536);await button(form,'返回浏览','W01','ButtonSecondary',536);form.appendChild(await text('课程原型采用示范身份，不连接学校认证系统。','small',536,'muted'));root.resize(1440,1160);}
+return await finish();

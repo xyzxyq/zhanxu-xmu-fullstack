@@ -1,0 +1,724 @@
+{
+  "pages": [
+    {
+      "key": "W01",
+      "id": "5:2",
+      "width": 1440,
+      "height": 1024,
+      "texts": 38,
+      "instances": 14,
+      "imageCount": 9,
+      "fonts": [
+        "Chiron Hei HK",
+        "LXGW WenKai TC",
+        "LXGW Marker Gothic"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W02",
+      "id": "12:31",
+      "width": 1440,
+      "height": 1024,
+      "texts": 24,
+      "instances": 10,
+      "imageCount": 3,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W03",
+      "id": "12:73",
+      "width": 1440,
+      "height": 1024,
+      "texts": 25,
+      "instances": 6,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W04",
+      "id": "12:115",
+      "width": 1440,
+      "height": 1024,
+      "texts": 39,
+      "instances": 19,
+      "imageCount": 4,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W05",
+      "id": "12:300",
+      "width": 1440,
+      "height": 1024,
+      "texts": 16,
+      "instances": 6,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W06",
+      "id": "12:744",
+      "width": 1440,
+      "height": 1024,
+      "texts": 15,
+      "instances": 5,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W07",
+      "id": "12:770",
+      "width": 1440,
+      "height": 1024,
+      "texts": 23,
+      "instances": 6,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W08",
+      "id": "12:811",
+      "width": 1440,
+      "height": 1024,
+      "texts": 33,
+      "instances": 3,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W09",
+      "id": "12:854",
+      "width": 1440,
+      "height": 1024,
+      "texts": 20,
+      "instances": 7,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W10",
+      "id": "12:890",
+      "width": 1440,
+      "height": 1024,
+      "texts": 22,
+      "instances": 4,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W11",
+      "id": "12:926",
+      "width": 1440,
+      "height": 1024,
+      "texts": 25,
+      "instances": 13,
+      "imageCount": 3,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "W12",
+      "id": "12:975",
+      "width": 1440,
+      "height": 1024,
+      "texts": 17,
+      "instances": 4,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "VERTICAL"
+    },
+    {
+      "key": "M03",
+      "id": "6:2",
+      "width": 390,
+      "height": 844,
+      "texts": 22,
+      "instances": 5,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "M01",
+      "id": "14:5",
+      "width": 390,
+      "height": 844,
+      "texts": 16,
+      "instances": 5,
+      "imageCount": 2,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "M02",
+      "id": "14:33",
+      "width": 390,
+      "height": 844,
+      "texts": 16,
+      "instances": 4,
+      "imageCount": 2,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "M04",
+      "id": "14:62",
+      "width": 390,
+      "height": 844,
+      "texts": 20,
+      "instances": 2,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "M05",
+      "id": "14:93",
+      "width": 390,
+      "height": 844,
+      "texts": 16,
+      "instances": 4,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "M06",
+      "id": "14:121",
+      "width": 390,
+      "height": 844,
+      "texts": 20,
+      "instances": 5,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "M07",
+      "id": "14:156",
+      "width": 390,
+      "height": 844,
+      "texts": 14,
+      "instances": 3,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "M08",
+      "id": "14:552",
+      "width": 390,
+      "height": 844,
+      "texts": 48,
+      "instances": 25,
+      "imageCount": 4,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "M09",
+      "id": "14:576",
+      "width": 390,
+      "height": 844,
+      "texts": 16,
+      "instances": 7,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "M10",
+      "id": "14:605",
+      "width": 390,
+      "height": 844,
+      "texts": 16,
+      "instances": 2,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "A06",
+      "id": "6:38",
+      "width": 1440,
+      "height": 1024,
+      "texts": 30,
+      "instances": 6,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "A01",
+      "id": "15:10",
+      "width": 1440,
+      "height": 1024,
+      "texts": 48,
+      "instances": 4,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "A02",
+      "id": "15:80",
+      "width": 1440,
+      "height": 1024,
+      "texts": 39,
+      "instances": 3,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "A03",
+      "id": "15:134",
+      "width": 1440,
+      "height": 1024,
+      "texts": 34,
+      "instances": 6,
+      "imageCount": 1,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "A04",
+      "id": "15:190",
+      "width": 1440,
+      "height": 1024,
+      "texts": 30,
+      "instances": 4,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "A05",
+      "id": "15:237",
+      "width": 1440,
+      "height": 1024,
+      "texts": 52,
+      "instances": 6,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "A07",
+      "id": "15:306",
+      "width": 1440,
+      "height": 1024,
+      "texts": 31,
+      "instances": 5,
+      "imageCount": 3,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "A08",
+      "id": "15:358",
+      "width": 1440,
+      "height": 1024,
+      "texts": 49,
+      "instances": 5,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "A09",
+      "id": "15:430",
+      "width": 1440,
+      "height": 1024,
+      "texts": 48,
+      "instances": 2,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    },
+    {
+      "key": "A10",
+      "id": "15:502",
+      "width": 1440,
+      "height": 1024,
+      "texts": 38,
+      "instances": 2,
+      "imageCount": 0,
+      "fonts": [
+        "Chiron Hei HK",
+        "DM Sans"
+      ],
+      "zeroWidth": [],
+      "blank": [],
+      "scroll": "NONE"
+    }
+  ],
+  "screenshots": [
+    {
+      "key": "W01",
+      "id": "5:2",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W01.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "M03",
+      "id": "6:2",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/M03.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "key": "A06",
+      "id": "6:38",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/A06.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W02",
+      "id": "12:31",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W02.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W03",
+      "id": "12:73",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W03.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W04",
+      "id": "12:115",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W04.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W05",
+      "id": "12:300",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W05.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W06",
+      "id": "12:744",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W06.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W07",
+      "id": "12:770",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W07.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W08",
+      "id": "12:811",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W08.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W09",
+      "id": "12:854",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W09.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W10",
+      "id": "12:890",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W10.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W11",
+      "id": "12:926",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W11.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "W12",
+      "id": "12:975",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/W12.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "M01",
+      "id": "14:5",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/M01.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "key": "M02",
+      "id": "14:33",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/M02.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "key": "M04",
+      "id": "14:62",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/M04.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "key": "M05",
+      "id": "14:93",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/M05.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "key": "M06",
+      "id": "14:121",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/M06.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "key": "M07",
+      "id": "14:156",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/M07.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "key": "M08",
+      "id": "14:552",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/M08.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "key": "M09",
+      "id": "14:576",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/M09.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "key": "M10",
+      "id": "14:605",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/M10.png",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "key": "A01",
+      "id": "15:10",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/A01.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "A02",
+      "id": "15:80",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/A02.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "A03",
+      "id": "15:134",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/A03.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "A04",
+      "id": "15:190",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/A04.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "A05",
+      "id": "15:237",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/A05.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "A07",
+      "id": "15:306",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/A07.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "A08",
+      "id": "15:358",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/A08.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "A09",
+      "id": "15:430",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/A09.png",
+      "width": 1440,
+      "height": 1024
+    },
+    {
+      "key": "A10",
+      "id": "15:502",
+      "path": "/Volumes/MySSD/课程作业/软件开发实训/展序·厦大/预览/A10.png",
+      "width": 1440,
+      "height": 1024
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "exhibitions": [
+    {
+      "id": 1,
+      "title": "厦园有光",
+      "subtitle": "山海之间的青年创作展",
+      "state": "on_view",
+      "status": "正在展出 · 10.20 — 11.06",
+      "image": "/assets/厦园晨雾.png",
+      "alt": "厦园有光",
+      "tone": "blue"
+    },
+    {
+      "id": 2,
+      "title": "凤凰花开的季节",
+      "subtitle": "校园植物与日常的视觉记录",
+      "state": "collecting",
+      "status": "征集中 · 截止 11.15",
+      "image": "/assets/凤凰花季.png",
+      "alt": "凤凰花开的季节",
+      "tone": "coral"
+    },
+    {
+      "id": 3,
+      "title": "瓦影与窗",
+      "subtitle": "嘉庚建筑视觉设计展",
+      "state": "archived",
+      "status": "往期档案 · 线上持续开放",
+      "image": "/assets/瓦影.png",
+      "alt": "瓦影与窗",
+      "tone": "sand"
+    }
+  ],
+  "works": [
+    {
+      "id": 1,
+      "title": "窗的秩序",
+      "author": "临舟",
+      "medium": "视觉创作",
+      "image": "/assets/瓦影.png"
+    },
+    {
+      "id": 2,
+      "title": "红瓦的几何",
+      "author": "云序",
+      "medium": "视觉创作",
+      "image": "/assets/凤凰花季.png"
+    },
+    {
+      "id": 3,
+      "title": "湖面留白",
+      "author": "知夏",
+      "medium": "视觉创作",
+      "image": "/assets/厦园晨雾.png"
+    },
+    {
+      "id": 4,
+      "title": "海风的形状",
+      "author": "南汐",
+      "medium": "视觉创作",
+      "image": "/assets/向海.png"
+    }
+  ]
+}

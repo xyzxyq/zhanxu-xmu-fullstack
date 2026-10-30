@@ -1,0 +1,547 @@
+[
+  {
+    "key": "W02-archive",
+    "source": "W02",
+    "hideExhibitionExcept": 2,
+    "changes": [
+      [
+        "发现校园展览",
+        "厦园展览档案"
+      ],
+      [
+        "在山海之间，看见不同的创作与表达。",
+        "展览结束，作品与创作记录仍可持续浏览。"
+      ]
+    ]
+  },
+  {
+    "key": "W02-search",
+    "source": "W02",
+    "hideExhibitionExcept": 2,
+    "changes": [
+      [
+        "发现校园展览",
+        "搜索结果：建筑"
+      ],
+      [
+        "在山海之间，看见不同的创作与表达。",
+        "找到 1 场相关展览。"
+      ]
+    ]
+  },
+  {
+    "key": "W06-phoenix",
+    "source": "W06",
+    "changes": [
+      [
+        "厦园有光",
+        "凤凰花开的季节"
+      ],
+      [
+        "2026.11.05 23:59",
+        "2026.12.15 23:59"
+      ]
+    ],
+    "targets": {
+      "W12-submit": "W07-phoenix"
+    }
+  },
+  {
+    "key": "W07-phoenix",
+    "source": "W07",
+    "changes": [
+      [
+        "厦园有光",
+        "凤凰花开的季节"
+      ]
+    ],
+    "targets": {
+      "W09-submitted": "W09-phoenix",
+      "W08-draft": "W08-phoenix"
+    }
+  },
+  {
+    "key": "W08-phoenix",
+    "source": "W08",
+    "changes": [
+      [
+        "厦园有光",
+        "凤凰花开的季节"
+      ],
+      [
+        "需修改",
+        "待审核"
+      ]
+    ],
+    "targets": {
+      "W09": "W09-phoenix"
+    }
+  },
+  {
+    "key": "W03-archive",
+    "source": "W03",
+    "changes": [
+      [
+        "厦园有光",
+        "窗与海的对话"
+      ],
+      [
+        "山海之间的青年创作展",
+        "嘉庚建筑视觉设计展"
+      ],
+      [
+        "● 正在展出",
+        "◌ 已归档"
+      ],
+      [
+        "2026.11.20 — 12.06",
+        "2026.10.01 — 10.20"
+      ],
+      [
+        "12 件作品 / 6 位创作者 / 4 个展区",
+        "8 件作品 / 6 位创作者 / 4 个展区"
+      ],
+      [
+        "预约线下参观  →",
+        "线下展览已结束"
+      ]
+    ],
+    "targets": {
+      "W04": "W04-archive"
+    },
+    "disable": [
+      "W10"
+    ]
+  },
+  {
+    "key": "W04-archive",
+    "source": "W04",
+    "changes": [
+      [
+        "厦园有光",
+        "窗与海的对话"
+      ],
+      [
+        "十二件作品，四种观看厦园的方式。",
+        "八件作品，持续开放的线上展览档案。"
+      ]
+    ],
+    "hideLastGalleryRow": true,
+    "targets": {
+      "W05-0": "W05-archive-0",
+      "W05-1": "W05-archive-1",
+      "W05-2": "W05-archive-2",
+      "W05-3": "W05-archive-3",
+      "W05-4": "W05-archive-4",
+      "W05-5": "W05-archive-5",
+      "W05-6": "W05-archive-6",
+      "W05-7": "W05-archive-7",
+      "W05-8": "W04-archive",
+      "W05-9": "W04-archive",
+      "W05-10": "W04-archive",
+      "W05-11": "W04-archive"
+    }
+  },
+  {
+    "key": "W12-submit",
+    "source": "W12",
+    "changes": [
+      [
+        "登录，进入我的展序",
+        "登录后继续投稿"
+      ]
+    ],
+    "targets": {
+      "W11": "W07"
+    }
+  },
+  {
+    "key": "W12-book",
+    "source": "W12",
+    "changes": [
+      [
+        "登录，进入我的展序",
+        "登录后继续预约"
+      ]
+    ],
+    "targets": {
+      "W11": "W10"
+    }
+  },
+  {
+    "key": "W12-favorite-0",
+    "source": "W12",
+    "changes": [
+      [
+        "登录，进入我的展序",
+        "登录后收藏作品"
+      ]
+    ],
+    "targets": {
+      "W11": "W05-saved-0"
+    }
+  },
+  {
+    "key": "W08-draft",
+    "source": "W08",
+    "changes": [
+      [
+        "需修改",
+        "草稿已保存"
+      ]
+    ],
+    "targets": {
+      "W09": "W07"
+    }
+  },
+  {
+    "key": "W08-pending",
+    "source": "W08",
+    "changes": [
+      [
+        "需修改",
+        "待审核"
+      ],
+      [
+        "11.07 15:20",
+        "11.08 10:36"
+      ]
+    ],
+    "targets": {
+      "W09": "W09-submitted"
+    }
+  },
+  {
+    "key": "W07-revision",
+    "source": "W07",
+    "changes": [
+      [
+        "已预填示范内容",
+        "修改版本 2 / 已补充创作过程"
+      ],
+      [
+        "以厦园建筑的窗与檐为线索，记录午后光线穿过石墙的层次。作品尝试让日常空间在纸面重新被看见，保留红瓦、石墙与海风共同构成的校园记忆。",
+        "以窗与檐为线索，先通过现场速写提取石墙与屋顶的轮廓，再以水彩叠加午后光线。补充的制作过程说明了色彩来源与纸面处理，保留厦园建筑细节的同时表达个人观看。"
+      ]
+    ],
+    "targets": {
+      "W09-submitted": "W09-resubmitted"
+    }
+  },
+  {
+    "key": "W10-alt",
+    "source": "W10",
+    "changes": [
+      [
+        "余 18 / 40 席 · 已选中",
+        "余 18 / 40 席"
+      ],
+      [
+        "余 25 / 40 席",
+        "余 25 / 40 席 · 已选中"
+      ],
+      [
+        "时段：14:00–16:00",
+        "时段：16:00–18:00"
+      ]
+    ],
+    "targets": {
+      "W11-booked": "W11-booked-alt"
+    }
+  },
+  {
+    "key": "W11-booked",
+    "source": "W11",
+    "changes": []
+  },
+  {
+    "key": "W11-booked-alt",
+    "source": "W11",
+    "changes": [
+      [
+        "14:00–16:00",
+        "16:00–18:00"
+      ]
+    ],
+    "targets": {
+      "W11-credential": "W11-credential-alt",
+      "S06-web": "S06-web-alt"
+    }
+  },
+  {
+    "key": "W05-saved-0",
+    "source": "W05-0",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-0": "W05-0"
+    }
+  },
+  {
+    "key": "W05-saved-1",
+    "source": "W05-1",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-1": "W05-1"
+    }
+  },
+  {
+    "key": "W05-saved-2",
+    "source": "W05-2",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-2": "W05-2"
+    }
+  },
+  {
+    "key": "W05-saved-3",
+    "source": "W05-3",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-3": "W05-3"
+    }
+  },
+  {
+    "key": "W05-saved-4",
+    "source": "W05-4",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-4": "W05-4"
+    }
+  },
+  {
+    "key": "W05-saved-5",
+    "source": "W05-5",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-5": "W05-5"
+    }
+  },
+  {
+    "key": "W05-saved-6",
+    "source": "W05-6",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-6": "W05-6"
+    }
+  },
+  {
+    "key": "W05-saved-7",
+    "source": "W05-7",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-7": "W05-7"
+    }
+  },
+  {
+    "key": "W05-saved-8",
+    "source": "W05-8",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-8": "W05-8"
+    }
+  },
+  {
+    "key": "W05-saved-9",
+    "source": "W05-9",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-9": "W05-9"
+    }
+  },
+  {
+    "key": "W05-saved-10",
+    "source": "W05-10",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-10": "W05-10"
+    }
+  },
+  {
+    "key": "W05-saved-11",
+    "source": "W05-11",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "W05-saved-11": "W05-11"
+    }
+  },
+  {
+    "key": "W05-archive-0",
+    "source": "W05-0",
+    "changes": [
+      [
+        "所属展览  厦园有光",
+        "所属展览  窗与海的对话"
+      ]
+    ],
+    "targets": {
+      "W04": "W04-archive",
+      "W05-11": "W05-archive-7",
+      "W05-1": "W05-archive-1"
+    }
+  },
+  {
+    "key": "W05-archive-1",
+    "source": "W05-1",
+    "changes": [
+      [
+        "所属展览  厦园有光",
+        "所属展览  窗与海的对话"
+      ]
+    ],
+    "targets": {
+      "W04": "W04-archive",
+      "W05-0": "W05-archive-0",
+      "W05-2": "W05-archive-2"
+    }
+  },
+  {
+    "key": "W05-archive-2",
+    "source": "W05-2",
+    "changes": [
+      [
+        "所属展览  厦园有光",
+        "所属展览  窗与海的对话"
+      ]
+    ],
+    "targets": {
+      "W04": "W04-archive",
+      "W05-1": "W05-archive-1",
+      "W05-3": "W05-archive-3"
+    }
+  },
+  {
+    "key": "W05-archive-3",
+    "source": "W05-3",
+    "changes": [
+      [
+        "所属展览  厦园有光",
+        "所属展览  窗与海的对话"
+      ]
+    ],
+    "targets": {
+      "W04": "W04-archive",
+      "W05-2": "W05-archive-2",
+      "W05-4": "W05-archive-4"
+    }
+  },
+  {
+    "key": "W05-archive-4",
+    "source": "W05-4",
+    "changes": [
+      [
+        "所属展览  厦园有光",
+        "所属展览  窗与海的对话"
+      ]
+    ],
+    "targets": {
+      "W04": "W04-archive",
+      "W05-3": "W05-archive-3",
+      "W05-5": "W05-archive-5"
+    }
+  },
+  {
+    "key": "W05-archive-5",
+    "source": "W05-5",
+    "changes": [
+      [
+        "所属展览  厦园有光",
+        "所属展览  窗与海的对话"
+      ]
+    ],
+    "targets": {
+      "W04": "W04-archive",
+      "W05-4": "W05-archive-4",
+      "W05-6": "W05-archive-6"
+    }
+  },
+  {
+    "key": "W05-archive-6",
+    "source": "W05-6",
+    "changes": [
+      [
+        "所属展览  厦园有光",
+        "所属展览  窗与海的对话"
+      ]
+    ],
+    "targets": {
+      "W04": "W04-archive",
+      "W05-5": "W05-archive-5",
+      "W05-7": "W05-archive-7"
+    }
+  },
+  {
+    "key": "W05-archive-7",
+    "source": "W05-7",
+    "changes": [
+      [
+        "所属展览  厦园有光",
+        "所属展览  窗与海的对话"
+      ]
+    ],
+    "targets": {
+      "W04": "W04-archive",
+      "W05-6": "W05-archive-6",
+      "W05-8": "W05-archive-0"
+    }
+  }
+]

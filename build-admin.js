@@ -1,0 +1,41 @@
+
+const page=await figma.getNodeByIdAsync('1:5');await figma.setCurrentPageAsync(page);
+{
+const {root,body}=await adminshell('A01','策展工作台','让每一份创作，拥有清晰的展出路径。',0);
+const row=box('关键数据',1152,'HORIZONTAL',null,0,24);body.appendChild(row);for(const [n,l]of [['12','作品投稿'],['12','展出作品'],['22','有效预约'],['8','已核验入场']]){const s=box(l,270,'VERTICAL','white',24,12);s.appendChild(await text(n,'number',222));s.appendChild(await text(l,'body',222,'muted'));row.appendChild(s);}
+const overview=box('展览与待办',1152,'HORIZONTAL',null,0,32);body.appendChild(overview);image(overview,0,552,300);const tasks=box('今日待办',568,'VERTICAL','white',24,16);overview.appendChild(tasks);tasks.appendChild(await text('厦园有光','heading',520));tasks.appendChild(await text('展出期  11.20 — 12.06\n思明校区 · 校内展厅（示范）','body',520,'muted'));await button(tasks,'查看预约与核验','A08','Button',520);await button(tasks,'进入策展编排','A07','ButtonSecondary',520);await button(tasks,'查看审核演示','A05','ButtonQuiet',520);
+await table(body,['展览','状态','作品','场次','操作'],[['厦园有光','展出中','12 件','3 场','管理展览 →'],['凤凰花开的季节','征集中','0 件','待配置','编辑展览 →'],['窗与海的对话','已归档','8 件','已关闭','查看档案 →']],1152,{0:'A03',1:'A04',2:'A02-archive'});}
+{
+const {root,body}=await adminshell('A02','展览管理','管理展览状态、公开信息与校园创作档案。',1);const r=box('管理操作',1152,'HORIZONTAL',null,0,16);body.appendChild(r);await button(r,'创建展览','A03-new','Button',240);await button(r,'往期档案','A02-archive','ButtonSecondary',240);
+await table(body,['编号','展览名称','状态','时间','操作'],[['EX-001','厦园有光','展出中','11.20 — 12.06','编辑 / 查看 →'],['EX-002','凤凰花开的季节','征集中','截止 12.15','征集配置 →'],['EX-003','窗与海的对话','已归档','线上持续开放','查看档案 →']],1152,{0:'A03',1:'A04',2:'A02-archive'});
+await note(body,'状态流转','草稿 → 征集中 → 筹备中 → 展出中 → 已归档。公开展示与业务阶段分别控制。',1152);}
+{
+const {root,body}=await adminshell('A03','编辑展览','厦园有光 / 公开版本预览与发布检查',2);const row=box('展览编辑',1152,'HORIZONTAL',null,0,32);body.appendChild(row);const form=box('展览表单',732,'VERTICAL',null,0,16);row.appendChild(form);await input(form,'展览标题 *','厦园有光',732);await input(form,'副标题','山海之间的青年创作展',732);await fields(form,[['开始时间 *','2026.11.20 10:00'],['结束时间 *','2026.12.06 18:00']],732);await input(form,'地点 *','思明校区 · 校内展厅（示范场地）',732);await input(form,'策展序言 *','在红瓦与海风之间，收集厦园的细微日常。十二件作品，四种观看校园的方式。',732);
+const info=box('封面与检查',388,'VERTICAL','white',24,16);row.appendChild(info);image(info,0,340,190);info.appendChild(await text('发布检查','title',340));info.appendChild(await text('✓ 基本信息完整\n✓ 12 件作品已入选\n✓ 展区编排完成\n✓ 展示授权已记录\n✓ 3 个场次已配置','body',340,'muted'));await button(info,'发布展览','A03-published','Button',340);await button(info,'预览公开页面','W03','ButtonSecondary',340);await button(info,'检查缺失场次','A03-blocked','ButtonQuiet',340);await button(info,'取消展览','A03-cancel-confirm','ButtonQuiet',340);await button(info,'归档展览','A03-archive-confirm','ButtonQuiet',340);}
+{
+const {root,body}=await adminshell('A04','征集配置','厦园有光 / 投稿规则与展示授权',3);await fields(body,[['征集开始','2026.10.15 00:00'],['征集截止','2026.11.05 23:59']],1152);await input(body,'作品类别','☑ 摄影   ☑ 插画   ☑ 视觉设计',1152);await input(body,'文件规格','JPG / PNG · 每张 ≤20 MB · 主图 1 张 / 细节图 ≤4 张',1152);await input(body,'创作说明要求','50–500 字；标题 2–40 字；填写作者公开署名。',1152);await input(body,'展示授权','作者确认作品展示授权；公开署名，学号与联系方式仅供内部管理。',1152);const actionsRow=box('配置操作',1152,'HORIZONTAL',null,0,16);body.appendChild(actionsRow);await button(actionsRow,'保存征集配置','A04-saved','Button',360);await button(actionsRow,'预览征集页面','W06','ButtonSecondary',360);await button(actionsRow,'查看截止状态','S03-web','ButtonQuiet',360);}
+{
+const {root,body}=await adminshell('A05','作品审核','厦园有光 / 审核阶段快照：2026.11.07',4);const r=box('审核筛选',1152,'HORIZONTAL',null,0,16);body.appendChild(r);for(const [l,t]of [['待审核','A05'],['需修改','A06-revision'],['已入选','A06-approved'],['未入选','A06-rejected']])await button(r,l,t,'ButtonSecondary',272);
+await table(body,['编号','作品标题','作者','类别','状态','操作'],[['ZX-001','瓦影与窗','临舟','插画','待审核','查看详情 →'],['ZX-002','凤凰花开的时候','若岚','插画','待审核','查看详情 →'],['ZX-005','窗的秩序','临舟','视觉设计','已入选','查看详情 →'],['ZX-006','红瓦的几何','云序','视觉设计','需修改','查看详情 →']],1152,{0:'A06',1:'A06-art1',2:'A06-approved',3:'A06-revision'});
+await note(body,'审核原则','修改与不入选决定必须填写具体原因。作品入选后进入策展作品池，完成编排和发布才对观众可见。',1152);}
+{
+const {root,body}=await adminshell('A07','策展编排','厦园有光 / 12 件入选作品 / 4 个主题展区',6);const r=box('策展操作',1152,'HORIZONTAL',null,0,16);body.appendChild(r);await button(r,'预览线上展厅','W04','ButtonSecondary',340);await button(r,'保存编排','A07-saved','Button',340);await button(r,'进入发布检查','A03','ButtonQuiet',340);
+const row=box('作品池与展区',1152,'HORIZONTAL',null,0,32);body.appendChild(row);const pool=box('入选作品池',320,'VERTICAL','white',20,16);row.appendChild(pool);pool.appendChild(await text('入选作品池','title',280));for(let i=0;i<3;i++){art(pool,i,280,130);pool.appendChild(await text(A[i].title,'bodyMedium',280));}
+const layout=box('展区顺序',800,'VERTICAL',null,0,16);row.appendChild(layout);for(const [i,s]of ['瓦影与窗','湖畔日常','向海而生','凤凰花季'].entries()){const zone=box('分区 '+s,800,'VERTICAL','white',24,12);layout.appendChild(zone);zone.appendChild(await text('0'+(i+1)+'  '+s,'title',752));zone.appendChild(await text(i===0?'01 瓦影与窗   /   02 窗的秩序   /   03 红瓦的几何':i===1?'04 湖畔晨雾   /   05 湖面留白   /   06 一只黑天鹅':i===2?'07 向海，向远方   /   08 海风的形状   /   09 山海之间':'10 凤凰花开的时候   /   11 花与五月   /   12 南强的色谱','small',752,'muted'));if(i===0)await button(zone,'将“窗的秩序”移到第一位','A07-reordered','ButtonSecondary',752);}
+}
+{
+const {root,body}=await adminshell('A08','预约与入场核验','厦园有光 / 2026.11.26 / 当前场次 14:00–16:00',7);
+const r=box('场次概览',1152,'HORIZONTAL',null,0,24);body.appendChild(r);for(const [n,l]of [['40','场次容量'],['22','有效预约'],['18','剩余名额'],['8','已核验入场']]){const c=box(l,270,'VERTICAL','white',24,8);c.appendChild(await text(n,'number',222));c.appendChild(await text(l,'body',222,'muted'));r.appendChild(c);}
+const controls=box('凭证核验',1152,'HORIZONTAL','white',24,24);body.appendChild(controls);await input(controls,'预约编号 / 扫码结果','RSV-001',720);await button(controls,'核验入场','A08-valid','Button',360);
+await table(body,['预约编号','用户','场次','状态','操作'],[['RSV-001','临舟（示范）','14:00–16:00','有效','核验 →'],['RSV-008','若岚（示范）','14:00–16:00','已使用','查看 →'],['RSV-014','云序（示范）','14:00–16:00','已取消','查看 →']],1152,{0:'A08-valid',1:'A08-used',2:'A08-invalid'});
+const variants=box('核验状态示例',1152,'HORIZONTAL',null,0,16);body.appendChild(variants);await button(variants,'重复核验','A08-used','ButtonSecondary',360);await button(variants,'失效凭证','A08-invalid','ButtonSecondary',360);await button(variants,'取消后余量','A08-cancelled','ButtonQuiet',360);}
+{
+const {root,body}=await adminshell('A09','数据与观展反馈','厦园有光 / 展出阶段快照：2026.11.26',8);const r=box('统计指标',1152,'HORIZONTAL',null,0,24);body.appendChild(r);for(const [n,l]of [['12','有效投稿'],['12','公开作品'],['22','有效预约'],['8','去重入场']]){const c=box(l,270,'VERTICAL','white',24,12);c.appendChild(await text(n,'number',222));c.appendChild(await text(l,'body',222,'muted'));r.appendChild(c);}
+await section(body,'观展路径','浏览作品 → 预约参观 → 核验入场',1152);const bars=box('预约与入场对比',1152,'VERTICAL','white',24,16);body.appendChild(bars);for(const [label,n]of [['场次容量',40],['有效预约',22],['已核验',8]]){const row=box('指标 '+label,1104,'HORIZONTAL',null,0,16);row.appendChild(await text(label,'body',150));const bar=figma.createRectangle();affected.push(bar.id);bar.resize(n*18,24);bar.fills=[paint(label==='已核验'?'clay':'lake')];row.appendChild(bar);row.appendChild(await text(String(n),'bodyMedium',50));bars.appendChild(row);}
+await table(body,['反馈编号','内容','来源','处理状态','操作'],[['FB-001','作品说明清晰，期待更多校园创作。','观众匿名','待阅','查看 →'],['FB-002','建议增加展区入口指引。','观众匿名','已阅','查看 →']],1152,{0:'A09-feedback',1:'A09-feedback'});
+await note(body,'统计口径','投稿按有效提交记录计；预约按有效预约计；入场按去重核验计。示范数字用于展示，不显示虚构增长率。',1152);}
+{
+const {root,body}=await adminshell('A10','人员与权限','限定管理范围，保护创作者的内部信息。',9);await table(body,['人员','角色','管理范围','权限','操作'],[['林老师','策展人员','厦园有光','审核 / 策展 / 发布','查看角色 →'],['陈同学','核验人员','厦园有光','仅预约与核验','预览权限 →'],['管理员','平台管理员','全部展览','角色 / 异常下架','查看记录 →']],1152,{0:'A10-role',1:'A10-checkin',2:'A10-audit'});
+await note(body,'权限边界','观众只能管理自己的收藏与预约；创作者只能编辑自己的稿件；策展人员限定到被分配展览；核验人员不得审核作品或修改角色。学号、联系方式与内部备注不公开。',1152);
+await button(body,'演示无权限访问','S08-admin','ButtonSecondary',360);}
+return await finish();

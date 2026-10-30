@@ -1,0 +1,52 @@
+[
+  {
+    "name": "01-exhibitions",
+    "width": 1600,
+    "height": 1274
+  },
+  {
+    "name": "02-artworks",
+    "width": 1600,
+    "height": 968
+  },
+  {
+    "name": "03-users",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "name": "04-calls_for_works",
+    "width": 1600,
+    "height": 1157
+  },
+  {
+    "name": "05-call_categories",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "name": "06-submissions",
+    "width": 1600,
+    "height": 1193
+  },
+  {
+    "name": "07-submission_versions",
+    "width": 1600,
+    "height": 923
+  },
+  {
+    "name": "08-submission_version_files",
+    "width": 1600,
+    "height": 977
+  },
+  {
+    "name": "09-exhibition_sections",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "name": "10-section_placements",
+    "width": 1600,
+    "height": 1013
+  }
+]

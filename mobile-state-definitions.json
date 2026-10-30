@@ -1,0 +1,408 @@
+[
+  {
+    "key": "M03-archive",
+    "source": "M03",
+    "changes": [
+      [
+        "厦园有光",
+        "窗与海的对话"
+      ],
+      [
+        "山海之间的青年创作展",
+        "嘉庚建筑视觉设计展"
+      ],
+      [
+        "● 正在展出",
+        "◌ 已归档"
+      ],
+      [
+        "2026.11.20 — 12.06",
+        "2026.10.01 — 10.20"
+      ],
+      [
+        "十二件作品",
+        "八件作品"
+      ],
+      [
+        "预约参观",
+        "线下已结束"
+      ]
+    ],
+    "disable": [
+      "M04"
+    ],
+    "targets": {
+      "M06": "M06-archive"
+    }
+  },
+  {
+    "key": "M06-archive",
+    "source": "M06",
+    "changes": [
+      [
+        "厦园有光",
+        "窗与海的对话"
+      ]
+    ],
+    "targets": {
+      "M07-0": "M07-archive-0",
+      "M07-3": "M07-archive-3",
+      "M07-2": "M07-archive-2",
+      "M07-1": "M07-archive-1"
+    }
+  },
+  {
+    "key": "M04-alt",
+    "source": "M04",
+    "changes": [
+      [
+        "余 18 席 · 已选中",
+        "余 18 席"
+      ],
+      [
+        "余 25 席",
+        "余 25 席 · 已选中"
+      ]
+    ],
+    "targets": {
+      "M05": "M05-alt"
+    }
+  },
+  {
+    "key": "M05-alt",
+    "source": "M05",
+    "changes": [
+      [
+        "14:00 — 16:00",
+        "16:00 — 18:00"
+      ]
+    ],
+    "targets": {
+      "S06-mobile": "S06-mobile-alt",
+      "M05-used": "M05-used-alt"
+    }
+  },
+  {
+    "key": "M05-used",
+    "source": "M05",
+    "changes": [
+      [
+        "● 预约有效",
+        "✓ 已核验"
+      ],
+      [
+        "请向工作人员出示此凭证",
+        "凭证已使用，不可重复核验"
+      ]
+    ],
+    "hideQR": true,
+    "hideTargets": [
+      "S06-mobile",
+      "M05-used"
+    ]
+  },
+  {
+    "key": "M05-used-alt",
+    "source": "M05",
+    "changes": [
+      [
+        "● 预约有效",
+        "✓ 已核验"
+      ],
+      [
+        "14:00 — 16:00",
+        "16:00 — 18:00"
+      ],
+      [
+        "请向工作人员出示此凭证",
+        "凭证已使用，不可重复核验"
+      ]
+    ],
+    "hideQR": true,
+    "hideTargets": [
+      "S06-mobile",
+      "M05-used"
+    ]
+  },
+  {
+    "key": "M05-cancelled",
+    "source": "M05",
+    "changes": [
+      [
+        "● 预约有效",
+        "◌ 预约已取消"
+      ],
+      [
+        "请向工作人员出示此凭证",
+        "凭证已失效，场次名额已释放"
+      ]
+    ],
+    "hideQR": true,
+    "hideTargets": [
+      "S06-mobile",
+      "M05-used"
+    ]
+  },
+  {
+    "key": "M10-book",
+    "source": "M10",
+    "changes": [
+      [
+        "登录，进入我的展序",
+        "登录后继续预约"
+      ]
+    ],
+    "targets": {
+      "M09": "M04"
+    }
+  },
+  {
+    "key": "M10-favorite-0",
+    "source": "M10",
+    "changes": [
+      [
+        "登录，进入我的展序",
+        "登录后收藏作品"
+      ]
+    ],
+    "targets": {
+      "M09": "M07-saved-0"
+    }
+  },
+  {
+    "key": "M07-saved-0",
+    "source": "M07-0",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-0": "M07-0"
+    }
+  },
+  {
+    "key": "M07-saved-1",
+    "source": "M07-1",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-1": "M07-1"
+    }
+  },
+  {
+    "key": "M07-saved-2",
+    "source": "M07-2",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-2": "M07-2"
+    }
+  },
+  {
+    "key": "M07-saved-3",
+    "source": "M07-3",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-3": "M07-3"
+    }
+  },
+  {
+    "key": "M07-saved-4",
+    "source": "M07-4",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-4": "M07-4"
+    }
+  },
+  {
+    "key": "M07-saved-5",
+    "source": "M07-5",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-5": "M07-5"
+    }
+  },
+  {
+    "key": "M07-saved-6",
+    "source": "M07-6",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-6": "M07-6"
+    }
+  },
+  {
+    "key": "M07-saved-7",
+    "source": "M07-7",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-7": "M07-7"
+    }
+  },
+  {
+    "key": "M07-saved-8",
+    "source": "M07-8",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-8": "M07-8"
+    }
+  },
+  {
+    "key": "M07-saved-9",
+    "source": "M07-9",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-9": "M07-9"
+    }
+  },
+  {
+    "key": "M07-saved-10",
+    "source": "M07-10",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-10": "M07-10"
+    }
+  },
+  {
+    "key": "M07-saved-11",
+    "source": "M07-11",
+    "changes": [
+      [
+        "♡ 收藏作品",
+        "♥ 已收藏 · 点击取消"
+      ]
+    ],
+    "targets": {
+      "M07-saved-11": "M07-11"
+    }
+  },
+  {
+    "key": "M07-archive-0",
+    "source": "M07-0",
+    "changes": [],
+    "targets": {
+      "M06": "M06-archive",
+      "M07-11": "M07-archive-7",
+      "M07-1": "M07-archive-1"
+    }
+  },
+  {
+    "key": "M07-archive-1",
+    "source": "M07-1",
+    "changes": [],
+    "targets": {
+      "M06": "M06-archive",
+      "M07-0": "M07-archive-0",
+      "M07-2": "M07-archive-2"
+    }
+  },
+  {
+    "key": "M07-archive-2",
+    "source": "M07-2",
+    "changes": [],
+    "targets": {
+      "M06": "M06-archive",
+      "M07-1": "M07-archive-1",
+      "M07-3": "M07-archive-3"
+    }
+  },
+  {
+    "key": "M07-archive-3",
+    "source": "M07-3",
+    "changes": [],
+    "targets": {
+      "M06": "M06-archive",
+      "M07-2": "M07-archive-2",
+      "M07-4": "M07-archive-4"
+    }
+  },
+  {
+    "key": "M07-archive-4",
+    "source": "M07-4",
+    "changes": [],
+    "targets": {
+      "M06": "M06-archive",
+      "M07-3": "M07-archive-3",
+      "M07-5": "M07-archive-5"
+    }
+  },
+  {
+    "key": "M07-archive-5",
+    "source": "M07-5",
+    "changes": [],
+    "targets": {
+      "M06": "M06-archive",
+      "M07-4": "M07-archive-4",
+      "M07-6": "M07-archive-6"
+    }
+  },
+  {
+    "key": "M07-archive-6",
+    "source": "M07-6",
+    "changes": [],
+    "targets": {
+      "M06": "M06-archive",
+      "M07-5": "M07-archive-5",
+      "M07-7": "M07-archive-7"
+    }
+  },
+  {
+    "key": "M07-archive-7",
+    "source": "M07-7",
+    "changes": [],
+    "targets": {
+      "M06": "M06-archive",
+      "M07-6": "M07-archive-6",
+      "M07-8": "M07-archive-0"
+    }
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "id": "5:2",
+    "name": "W01 / 首页",
+    "width": 1440,
+    "height": 1024,
+    "links": [
+      {
+        "name": "↗ W02 / 展览",
+        "target": "W02",
+        "text": "展览",
+        "x": 518,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W04 / 作品",
+        "target": "W04",
+        "text": "作品",
+        "x": 656,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W06 / 征集",
+        "target": "W06",
+        "text": "征集",
+        "x": 794,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W02-archive / 厦园档案",
+        "target": "W02-archive",
+        "text": "厦园档案",
+        "x": 932,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W11 / 我的展序  ↗",
+        "target": "W11",
+        "text": "我的展序  ↗",
+        "x": 1070,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W02 / Button",
+        "target": "W02",
+        "text": "浏览展览  →",
+        "x": 180,
+        "y": 546,
+        "conditional": false
+      },
+      {
+        "name": "↗ W06 / Button",
+        "target": "W06",
+        "text": "参与征集",
+        "x": 364,
+        "y": 546,
+        "conditional": false
+      },
+      {
+        "name": "↗ W02 / 全部展览  ↗",
+        "target": "W02",
+        "text": "全部展览  ↗",
+        "x": 1120,
+        "y": 708,
+        "conditional": false
+      },
+      {
+        "name": "↗ W03 / ExhibitionCard",
+        "target": "W03",
+        "text": "厦园有光",
+        "x": 112,
+        "y": 1009,
+        "conditional": false
+      },
+      {
+        "name": "↗ W06 / ExhibitionCard",
+        "target": "W06",
+        "text": "凤凰花开的季节",
+        "x": 528,
+        "y": 1009,
+        "conditional": false
+      },
+      {
+        "name": "↗ W03-archive / ExhibitionCard",
+        "target": "W03-archive",
+        "text": "窗与海的对话",
+        "x": 944,
+        "y": 1009,
+        "conditional": false
+      },
+      {
+        "name": "↗ W05-0 / 作品 / 瓦影与窗",
+        "target": "W05-0",
+        "text": "瓦影与窗",
+        "x": 112,
+        "y": 1580,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-1 / 作品 / 凤凰花开的时候",
+        "target": "W05-1",
+        "text": "凤凰花开的时候",
+        "x": 430,
+        "y": 1580,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-2 / 作品 / 向海，向远方",
+        "target": "W05-2",
+        "text": "向海，向远方",
+        "x": 748,
+        "y": 1580,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-3 / 作品 / 湖畔晨雾",
+        "target": "W05-3",
+        "text": "湖畔晨雾",
+        "x": 1066,
+        "y": 1580,
+        "conditional": true
+      },
+      {
+        "name": "↗ W06 / Button",
+        "target": "W06",
+        "text": "查看征集  →",
+        "x": 1106,
+        "y": 1746,
+        "conditional": false
+      }
+    ]
+  },
+  {
+    "id": "12:31",
+    "name": "W02 / 发现校园展览",
+    "width": 1440,
+    "height": 1024,
+    "links": [
+      {
+        "name": "↗ W01 / 展序·厦大",
+        "target": "W01",
+        "text": "展序·厦大",
+        "x": 96,
+        "y": 28.5,
+        "conditional": false
+      },
+      {
+        "name": "↗ W04 / 作品",
+        "target": "W04",
+        "text": "作品",
+        "x": 656,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W06 / 征集",
+        "target": "W06",
+        "text": "征集",
+        "x": 794,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W02-archive / 厦园档案",
+        "target": "W02-archive",
+        "text": "厦园档案",
+        "x": 932,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W11 / 我的展序  ↗",
+        "target": "W11",
+        "text": "我的展序  ↗",
+        "x": 1070,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W02-archive / Button",
+        "target": "W02-archive",
+        "text": "往期档案",
+        "x": 492,
+        "y": 279,
+        "conditional": false
+      },
+      {
+        "name": "↗ W02-search / Button",
+        "target": "W02-search",
+        "text": "搜索“建筑”",
+        "x": 684,
+        "y": 279,
+        "conditional": false
+      },
+      {
+        "name": "↗ S01-web / Button",
+        "target": "S01-web",
+        "text": "搜索无结果",
+        "x": 908,
+        "y": 279,
+        "conditional": false
+      },
+      {
+        "name": "↗ W03 / ExhibitionCard",
+        "target": "W03",
+        "text": "厦园有光",
+        "x": 112,
+        "y": 577,
+        "conditional": false
+      },
+      {
+        "name": "↗ W06-phoenix / ExhibitionCard",
+        "target": "W06-phoenix",
+        "text": "凤凰花开的季节",
+        "x": 528,
+        "y": 577,
+        "conditional": false
+      },
+      {
+        "name": "↗ W03-archive / ExhibitionCard",
+        "target": "W03-archive",
+        "text": "窗与海的对话",
+        "x": 944,
+        "y": 577,
+        "conditional": false
+      }
+    ]
+  },
+  {
+    "id": "12:73",
+    "name": "W03 / 厦园有光",
+    "width": 1440,
+    "height": 1024,
+    "links": [
+      {
+        "name": "↗ W01 / 展序·厦大",
+        "target": "W01",
+        "text": "展序·厦大",
+        "x": 96,
+        "y": 28.5,
+        "conditional": false
+      },
+      {
+        "name": "↗ W02 / 展览",
+        "target": "W02",
+        "text": "展览",
+        "x": 518,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W04 / 作品",
+        "target": "W04",
+        "text": "作品",
+        "x": 656,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W06 / 征集",
+        "target": "W06",
+        "text": "征集",
+        "x": 794,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W02-archive / 厦园档案",
+        "target": "W02-archive",
+        "text": "厦园档案",
+        "x": 932,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W11 / 我的展序  ↗",
+        "target": "W11",
+        "text": "我的展序  ↗",
+        "x": 1070,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W10 / Button",
+        "target": "W10",
+        "text": "预约线下参观  →",
+        "x": 900,
+        "y": 446,
+        "conditional": false
+      },
+      {
+        "name": "↗ W04 / Button",
+        "target": "W04",
+        "text": "进入线上展厅",
+        "x": 900,
+        "y": 510,
+        "conditional": false
+      },
+      {
+        "name": "↗ W04 / 分区",
+        "target": "W04",
+        "text": "01",
+        "x": 120,
+        "y": 864,
+        "conditional": false
+      },
+      {
+        "name": "↗ W04 / 分区",
+        "target": "W04",
+        "text": "02",
+        "x": 438,
+        "y": 864,
+        "conditional": false
+      },
+      {
+        "name": "↗ W04 / 分区",
+        "target": "W04",
+        "text": "03",
+        "x": 756,
+        "y": 864,
+        "conditional": false
+      },
+      {
+        "name": "↗ W04 / 分区",
+        "target": "W04",
+        "text": "04",
+        "x": 1074,
+        "y": 864,
+        "conditional": false
+      }
+    ]
+  },
+  {
+    "id": "12:115",
+    "name": "W04 / 厦园有光 · 线上展厅",
+    "width": 1440,
+    "height": 1024,
+    "links": [
+      {
+        "name": "↗ W01 / 展序·厦大",
+        "target": "W01",
+        "text": "展序·厦大",
+        "x": 96,
+        "y": 28.5,
+        "conditional": false
+      },
+      {
+        "name": "↗ W02 / 展览",
+        "target": "W02",
+        "text": "展览",
+        "x": 518,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W06 / 征集",
+        "target": "W06",
+        "text": "征集",
+        "x": 794,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W02-archive / 厦园档案",
+        "target": "W02-archive",
+        "text": "厦园档案",
+        "x": 932,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "↗ W11 / 我的展序  ↗",
+        "target": "W11",
+        "text": "我的展序  ↗",
+        "x": 1070,
+        "y": 32,
+        "conditional": false
+      },
+      {
+        "name": "筛选 / 瓦影与窗",
+        "target": null,
+        "text": "瓦影与窗",
+        "x": 348,
+        "y": 279,
+        "conditional": false
+      },
+      {
+        "name": "筛选 / 湖畔日常",
+        "target": null,
+        "text": "湖畔日常",
+        "x": 588,
+        "y": 279,
+        "conditional": false
+      },
+      {
+        "name": "筛选 / 向海而生",
+        "target": null,
+        "text": "向海而生",
+        "x": 828,
+        "y": 279,
+        "conditional": false
+      },
+      {
+        "name": "筛选 / 凤凰花季",
+        "target": null,
+        "text": "凤凰花季",
+        "x": 1068,
+        "y": 279,
+        "conditional": false
+      },
+      {
+        "name": "↗ W05-0 / 作品 / 瓦影与窗",
+        "target": "W05-0",
+        "text": "瓦影与窗",
+        "x": 112,
+        "y": 655,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-1 / 作品 / 凤凰花开的时候",
+        "target": "W05-1",
+        "text": "凤凰花开的时候",
+        "x": 430,
+        "y": 655,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-2 / 作品 / 向海，向远方",
+        "target": "W05-2",
+        "text": "向海，向远方",
+        "x": 748,
+        "y": 655,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-3 / 作品 / 湖畔晨雾",
+        "target": "W05-3",
+        "text": "湖畔晨雾",
+        "x": 1066,
+        "y": 655,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-4 / 作品 / 窗的秩序",
+        "target": "W05-4",
+        "text": "窗的秩序",
+        "x": 112,
+        "y": 1076,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-5 / 作品 / 红瓦的几何",
+        "target": "W05-5",
+        "text": "红瓦的几何",
+        "x": 430,
+        "y": 1076,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-6 / 作品 / 湖面留白",
+        "target": "W05-6",
+        "text": "湖面留白",
+        "x": 748,
+        "y": 1076,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-7 / 作品 / 一只黑天鹅",
+        "target": "W05-7",
+        "text": "一只黑天鹅",
+        "x": 1066,
+        "y": 1076,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-8 / 作品 / 海风的形状",
+        "target": "W05-8",
+        "text": "海风的形状",
+        "x": 112,
+        "y": 1497,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-9 / 作品 / 山海之间",
+        "target": "W05-9",
+        "text": "山海之间",
+        "x": 430,
+        "y": 1497,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-10 / 作品 / 花与五月",
+        "target": "W05-10",
+        "text": "花与五月",
+        "x": 748,
+        "y": 1497,
+        "conditional": true
+      },
+      {
+        "name": "↗ W05-11 / 作品 / 南强的色谱",
+        "target": "W05-11",
+        "text": "南强的色谱",
+        "x": 1066,
+        "y": 1497,
+        "conditional": true
+      }
+    ]
+  }
+]

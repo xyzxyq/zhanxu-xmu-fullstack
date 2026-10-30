@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-23T10:49:00+08:00",
+  "database": "MySQL 8.4.11",
+  "schema_table_count": 19,
+  "public_exhibition_count": 3,
+  "featured_work_count": 4,
+  "backend_endpoint": "http://127.0.0.1:8080/api/home",
+  "frontend_endpoint": "http://127.0.0.1:4173/api/home",
+  "database_change_visible_through_backend_and_vite": true,
+  "demo_content_restored": true,
+  "private_exhibition_and_hidden_work_excluded": true,
+  "invalid_date_rejected_mysql_error": 3819,
+  "invalid_foreign_key_rejected_mysql_error": 1452,
+  "application_write_denied_mysql_error": 1142,
+  "maven_integration_tests": {
+    "tests": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  "frontend_backend_outage_shows_retry": true,
+  "frontend_retry_recovers_database_content": true,
+  "vue_production_build": "passed"
+}
